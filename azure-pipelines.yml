@@ -20,12 +20,9 @@ stages:
       vmImage: ubuntu-latest
 
     steps:
-    - script: |
-        pwd
-        cd P1-time3
-      displayName: cd
-    - script: |
-        pwd
-      displayName: pwd  
+    - task: DotNetCoreCLI@2
+      inputs:
+        command: 'build'
+   
 
     
