@@ -29,6 +29,6 @@ stages:
       workingDirectory: $(slnPath)
 
     - script: dotnet test --configuration Release
-      displayName: dotnet build   
+      displayName: dotnet test   
       workingDirectory: $(slnPath)  
     
