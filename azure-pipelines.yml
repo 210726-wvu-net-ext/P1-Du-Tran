@@ -14,18 +14,28 @@ trigger:
 stages:
 - stage: build
   jobs:
-  - job: build
 
+  - job: build
     pool:
       vmImage: ubuntu-latest
-
+    strategy:
+      matrix:
+       debug:
+        configuration: Debug
+       release:
+        configuration: Release   
+    steps:
+    - script: dotnet build --configuration $(configuration)
+      displayName: dotnet build (script)    
+      workingDirectory: P1-time3/ReviewApp.ConsoleApp
+    
+  - job: build_windows_vs
+    pool:
+      vmImage: ubuntu-latest
     steps:
     - script: dotnet build
+      displayName: dotnet build (script)    
       workingDirectory: P1-time3/ReviewApp.ConsoleApp
-    - task: DotNetCoreCLI@2
-      inputs:
-        command: 'build'
-        projects: 'P1-time3/ReviewApp.ConsoleApp'
    
 
     
