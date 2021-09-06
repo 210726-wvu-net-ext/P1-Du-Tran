@@ -12,7 +12,7 @@ trigger:
       - P1-time3/ReviewApp.ConsoleApp
 
 variables:
-    slnPath: P1-time3/ReviewApp.ConsoleApp
+  slnPath: P1-time3/ReviewApp.ConsoleApp
 
 stages:
 - stage: build
@@ -21,24 +21,14 @@ stages:
   - job: build
     pool:
       vmImage: ubuntu-latest
-    strategy:
-      matrix:
-       debug:
-        configuration: Debug
-       release:
-        configuration: Release   
-    steps:
-    - script: dotnet build --configuration $(configuration)
-      displayName: dotnet build (script)    
-      workingDirectory: $(slnPath)
-    
-  - job: build_windows_vs
-    pool:
-      vmImage: ubuntu-latest
-    steps:
-    - script: dotnet build
-      displayName: dotnet build (script)    
-      workingDirectory: $(slnPath)
-   
 
+    steps:
+
+    - script: dotnet build --configuration Release
+      displayName: dotnet build  
+      workingDirectory: $(slnPath)
+
+    - script: dotnet test --configuration Release
+      displayName: dotnet build   
+      workingDirectory: $(slnPath)  
     
