@@ -20,7 +20,12 @@ stages:
       vmImage: ubuntu-latest
 
     steps:
-    - script: ls
-      displayName: ls
+    - script: |
+        pwd
+        cd P1-time3
+      displayName: cd
+    - script: |
+        pwd
+      displayName: pwd  
 
     
