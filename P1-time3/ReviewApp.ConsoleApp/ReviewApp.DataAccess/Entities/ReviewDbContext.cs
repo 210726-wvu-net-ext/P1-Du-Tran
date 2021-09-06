@@ -101,7 +101,7 @@ namespace ReviewApp.DataAccess.Entities
                 entity.HasOne(d => d.Customer)
                     .WithMany(p => p.ReviewJoins)
                     .HasForeignKey(d => d.CustomerId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    //.OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK__ReviewJoi__Custo__6477ECF3");
 
                 entity.HasOne(d => d.Restaurant)
@@ -113,7 +113,7 @@ namespace ReviewApp.DataAccess.Entities
                 entity.HasOne(d => d.Review)
                     .WithMany(p => p.ReviewJoins)
                     .HasForeignKey(d => d.ReviewId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    //.OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK__ReviewJoi__Revie__628FA481");
             });
 

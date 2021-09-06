@@ -4,22 +4,31 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome To Review App</h1>
-    <p>We are here to give you the best choice</p>
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+
+        <main role="main" class="inner cover">
+            <h1 class="cover-heading">Welcome To My Review Page.</h1>
+            <p class="lead">What to eat today??What restaurant do you want to come?? Let's search it now'.</p>
+            <p class="lead">
+
+            </p>
+            
+            <form asp-action="ShowSearchResults">
+                <div class="form-group">
+                    <label for="searchString" class="control-label"></label>
+                    <input type="text" name="searchString" class="form-control" placeholder="Search..." style="display: inline-block;">
+                </div>
+            </form>
+            
+            <div class="form-group">
+                <input type="submit" value="Explore Now" class="btn btn-primary" style="display: inline-block;margin: 20px;">
+               </div>
+        </main>
+
+        
+    </div>
+
 </div>
-<table>
-    <thead>
-        <tr>
-            <th>Customer Details</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var customer in Model)
-        {
-            <tr>
-                <td>@customer.UserName</td>
-            </tr>
-        }
-    </tbody>
-</table>
+
+
 

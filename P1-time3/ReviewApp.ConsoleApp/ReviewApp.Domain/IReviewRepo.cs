@@ -9,14 +9,29 @@ namespace ReviewApp.Domain
         public interface IReviewRepo
         {
             Review AddReview(Review review);
-            List<Review> GetReviews();
-            Restaurant FindARestaurant(string name);
-            List<Restaurant> GetAllRestaurants();
-            Restaurant FindARestaurantByZipcode(string zipcode);
-            List<Customer> GetAllCustomers();
+            ReviewJoin AddAReviewJoin(ReviewJoin reviewjoin);
             Customer AddAUser(Customer customer);
+
+            Restaurant AddARestaurant(Restaurant restaurant);
+            List<Review> GetReviews();
+            List<Restaurant> GetAllRestaurants();
+            List<Customer> GetAllCustomers();
+            List<ReviewJoin> GetReviewJoins();
+
+            Restaurant FindARestaurantByZipcode(string zipcode);
+            Restaurant FindARestaurant(string name);
+            Restaurant FindARestaurant(int id);
             Customer SearchUsersByUserName(string userName);
+            Customer SearchUsersById(int id);
+            Review SearchReviewByReviewId(int id);
             
+            
+            void DeleteReviewJoin(int id);
+            void DeleteReview(int id);
+            void DeleteRestaurant(int id);
+            void DeleteUser(int id);
+
+            void Update(string email, int id);
     }
         
 }

@@ -1,0 +1,330 @@
+2021-09-06 00:14:14.058 -04:00 [INF] HTTP GET / responded 200 in 9.6591 ms
+2021-09-06 00:14:33.605 -04:00 [INF] HTTP GET / responded 200 in 1.6681 ms
+2021-09-06 00:16:23.883 -04:00 [INF] HTTP GET / responded 200 in 1.8975 ms
+2021-09-06 00:17:29.314 -04:00 [INF] HTTP GET / responded 200 in 1.1601 ms
+2021-09-06 00:20:26.495 -04:00 [INF] HTTP GET / responded 200 in 1.8646 ms
+2021-09-06 00:21:59.967 -04:00 [INF] HTTP GET / responded 200 in 1.7105 ms
+2021-09-06 00:24:17.328 -04:00 [INF] HTTP GET / responded 200 in 2.2289 ms
+2021-09-06 00:24:40.126 -04:00 [INF] HTTP GET / responded 200 in 1.7000 ms
+2021-09-06 00:24:43.790 -04:00 [INF] HTTP GET / responded 200 in 2.7865 ms
+2021-09-06 00:24:44.063 -04:00 [INF] Privacy
+2021-09-06 00:24:44.065 -04:00 [ERR] This Exception from Privacy Page
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ReviewApp.WebApp.Controllers.HomeController.Privacy() in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\HomeController.cs:line 35
+2021-09-06 00:24:44.134 -04:00 [INF] HTTP GET /Home/Privacy responded 200 in 80.7390 ms
+2021-09-06 00:24:46.437 -04:00 [INF] HTTP GET / responded 200 in 0.9819 ms
+2021-09-06 00:25:10.241 -04:00 [INF] HTTP GET / responded 200 in 3.5443 ms
+2021-09-06 00:25:24.952 -04:00 [INF] HTTP GET / responded 200 in 1.8499 ms
+2021-09-06 00:25:26.537 -04:00 [INF] Privacy
+2021-09-06 00:25:26.538 -04:00 [ERR] This Exception from Privacy Page
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ReviewApp.WebApp.Controllers.HomeController.Privacy() in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\HomeController.cs:line 35
+2021-09-06 00:25:26.541 -04:00 [INF] HTTP GET /Home/Privacy responded 200 in 6.8539 ms
+2021-09-06 00:40:43.961 -04:00 [INF] Privacy
+2021-09-06 00:40:43.963 -04:00 [ERR] This Exception from Privacy Page
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ReviewApp.WebApp.Controllers.HomeController.Privacy() in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\HomeController.cs:line 35
+2021-09-06 00:40:43.966 -04:00 [INF] HTTP GET /Home/Privacy responded 200 in 6.3775 ms
+2021-09-06 00:47:57.085 -04:00 [INF] Privacy
+2021-09-06 00:47:57.086 -04:00 [ERR] This Exception from Privacy Page
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ReviewApp.WebApp.Controllers.HomeController.Privacy() in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\HomeController.cs:line 35
+2021-09-06 00:47:57.087 -04:00 [INF] HTTP GET /Home/Privacy responded 200 in 2.7106 ms
+2021-09-06 00:48:55.481 -04:00 [INF] Privacy
+2021-09-06 00:48:55.481 -04:00 [ERR] This Exception from Privacy Page
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ReviewApp.WebApp.Controllers.HomeController.Privacy() in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\HomeController.cs:line 35
+2021-09-06 00:48:55.484 -04:00 [INF] HTTP GET /Home/Privacy responded 200 in 3.3922 ms
+2021-09-06 00:58:09.622 -04:00 [INF] Application Starting Up
+2021-09-06 00:58:10.778 -04:00 [INF] HTTP GET / responded 200 in 502.0373 ms
+2021-09-06 00:58:55.251 -04:00 [INF] HTTP GET / responded 200 in 31.3093 ms
+2021-09-06 00:59:57.243 -04:00 [INF] HTTP GET / responded 200 in 7.2674 ms
+2021-09-06 01:00:16.103 -04:00 [INF] HTTP GET / responded 200 in 5.1390 ms
+2021-09-06 01:01:32.421 -04:00 [INF] HTTP GET / responded 200 in 3.6649 ms
+2021-09-06 01:02:52.885 -04:00 [INF] Application Starting Up
+2021-09-06 01:02:54.002 -04:00 [INF] HTTP GET / responded 200 in 557.5488 ms
+2021-09-06 01:05:22.871 -04:00 [INF] HTTP GET / responded 200 in 17.5851 ms
+2021-09-06 01:10:38.076 -04:00 [INF] HTTP GET / responded 200 in 22.4585 ms
+2021-09-06 01:12:51.620 -04:00 [INF] Application Starting Up
+2021-09-06 01:12:52.760 -04:00 [INF] HTTP GET / responded 200 in 620.7715 ms
+2021-09-06 01:13:04.724 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2294.1787 ms
+2021-09-06 01:13:20.354 -04:00 [INF] HTTP GET /Restaurant responded 200 in 145.4598 ms
+2021-09-06 01:17:42.980 -04:00 [INF] HTTP GET /Restaurant/SearchForARestaurantForm responded 200 in 11.4676 ms
+2021-09-06 01:17:46.011 -04:00 [INF] HTTP GET /Restaurant responded 200 in 89.5488 ms
+2021-09-06 01:17:49.044 -04:00 [INF] HTTP GET /User/CreateAnAccount responded 200 in 69.2426 ms
+2021-09-06 01:17:52.408 -04:00 [INF] Privacy
+2021-09-06 01:17:52.408 -04:00 [ERR] This Exception from Privacy Page
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ReviewApp.WebApp.Controllers.HomeController.Privacy() in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\HomeController.cs:line 35
+2021-09-06 01:17:52.434 -04:00 [INF] HTTP GET /Home/Privacy responded 200 in 33.2793 ms
+2021-09-06 01:17:53.793 -04:00 [INF] HTTP GET / responded 200 in 1.9987 ms
+2021-09-06 01:17:54.840 -04:00 [INF] HTTP GET /Restaurant responded 200 in 70.5361 ms
+2021-09-06 01:27:06.506 -04:00 [INF] Application Starting Up
+2021-09-06 01:27:09.570 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2496.7047 ms
+2021-09-06 01:27:48.723 -04:00 [INF] Application Starting Up
+2021-09-06 01:27:51.834 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2318.6848 ms
+2021-09-06 01:28:30.333 -04:00 [INF] Application Starting Up
+2021-09-06 01:28:33.025 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2169.2174 ms
+2021-09-06 01:30:33.985 -04:00 [INF] Application Starting Up
+2021-09-06 01:30:37.368 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2437.6027 ms
+2021-09-06 01:32:17.252 -04:00 [INF] Application Starting Up
+2021-09-06 01:32:20.208 -04:00 [INF] HTTP GET /Restaurant responded 200 in 1880.6725 ms
+2021-09-06 01:34:18.521 -04:00 [INF] Application Starting Up
+2021-09-06 01:34:21.324 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2123.3014 ms
+2021-09-06 01:34:56.839 -04:00 [INF] Application Starting Up
+2021-09-06 01:35:00.109 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2420.9455 ms
+2021-09-06 01:35:30.918 -04:00 [INF] Application Starting Up
+2021-09-06 01:35:33.886 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2162.5611 ms
+2021-09-06 01:36:06.221 -04:00 [INF] Application Starting Up
+2021-09-06 01:36:09.307 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2282.7495 ms
+2021-09-06 01:36:46.743 -04:00 [INF] HTTP GET /login responded 200 in 100.8468 ms
+2021-09-06 01:36:52.599 -04:00 [INF] HTTP POST /login?ReturnUrl= responded 302 in 361.3587 ms
+2021-09-06 01:36:52.613 -04:00 [INF] HTTP GET /User/Result responded 200 in 8.0892 ms
+2021-09-06 01:36:54.566 -04:00 [INF] HTTP GET /User responded 200 in 109.1369 ms
+2021-09-06 01:38:44.709 -04:00 [INF] Application Starting Up
+2021-09-06 01:38:48.087 -04:00 [INF] HTTP GET /User responded 200 in 2243.4934 ms
+2021-09-06 01:38:54.294 -04:00 [INF] HTTP GET /Restaurant responded 200 in 199.6932 ms
+2021-09-06 01:40:32.379 -04:00 [INF] Application Starting Up
+2021-09-06 01:40:36.044 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2599.8536 ms
+2021-09-06 01:41:57.837 -04:00 [INF] Application Starting Up
+2021-09-06 01:42:01.617 -04:00 [INF] HTTP GET /Restaurant responded 200 in 3101.7346 ms
+2021-09-06 01:43:26.731 -04:00 [INF] Application Starting Up
+2021-09-06 01:43:30.784 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2841.5748 ms
+2021-09-06 01:46:24.480 -04:00 [INF] Application Starting Up
+2021-09-06 01:46:28.162 -04:00 [INF] HTTP GET /Restaurant responded 200 in 3160.9074 ms
+2021-09-06 01:46:54.615 -04:00 [INF] Application Starting Up
+2021-09-06 01:46:57.590 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2146.9699 ms
+2021-09-06 01:47:16.975 -04:00 [INF] HTTP GET /User responded 200 in 204.0337 ms
+2021-09-06 01:47:21.716 -04:00 [INF] HTTP GET /Restaurant/SearchForARestaurantForm responded 200 in 13.9174 ms
+2021-09-06 01:47:22.999 -04:00 [INF] HTTP GET /Restaurant responded 200 in 90.0869 ms
+2021-09-06 01:50:42.371 -04:00 [INF] Application Starting Up
+2021-09-06 01:50:45.931 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2408.5919 ms
+2021-09-06 01:51:50.458 -04:00 [INF] Application Starting Up
+2021-09-06 01:51:55.165 -04:00 [INF] Application Starting Up
+2021-09-06 01:51:58.179 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2014.3957 ms
+2021-09-06 01:52:58.072 -04:00 [INF] Application Starting Up
+2021-09-06 01:52:59.522 -04:00 [INF] HTTP GET / responded 200 in 524.1102 ms
+2021-09-06 01:53:08.771 -04:00 [INF] HTTP GET / responded 200 in 11.2961 ms
+2021-09-06 01:53:09.935 -04:00 [INF] Privacy
+2021-09-06 01:53:09.936 -04:00 [ERR] This Exception from Privacy Page
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ReviewApp.WebApp.Controllers.HomeController.Privacy() in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\HomeController.cs:line 35
+2021-09-06 01:53:10.043 -04:00 [INF] HTTP GET /Home/Privacy responded 200 in 118.3220 ms
+2021-09-06 01:53:20.076 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2461.6265 ms
+2021-09-06 01:53:25.780 -04:00 [INF] HTTP GET /Restaurant/Details/3 responded 200 in 408.5680 ms
+2021-09-06 01:53:41.631 -04:00 [INF] HTTP GET /Restaurant/SearchForARestaurantForm responded 200 in 8.8075 ms
+2021-09-06 01:53:43.273 -04:00 [INF] HTTP GET /Restaurant responded 200 in 82.4018 ms
+2021-09-06 01:53:48.593 -04:00 [INF] HTTP GET /User responded 200 in 103.0810 ms
+2021-09-06 01:53:51.819 -04:00 [INF] HTTP GET /Restaurant responded 200 in 78.2994 ms
+2021-09-06 01:53:54.234 -04:00 [INF] HTTP GET /Restaurant/Details/3 responded 200 in 178.9482 ms
+2021-09-06 01:53:57.127 -04:00 [INF] HTTP GET /Restaurant/LeaveReviews responded 200 in 44.4234 ms
+2021-09-06 01:54:05.118 -04:00 [INF] HTTP GET /Restaurant responded 200 in 79.0655 ms
+2021-09-06 01:54:08.373 -04:00 [INF] HTTP GET /Restaurant/Details/4 responded 200 in 267.4406 ms
+2021-09-06 01:54:16.853 -04:00 [INF] HTTP GET /Restaurant/Edit/36 responded 404 in 0.2624 ms
+2021-09-06 01:54:21.792 -04:00 [ERR] HTTP GET /Restaurant/Details/36 responded 500 in 129.2747 ms
+System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.ThrowHelper.ThrowNoMatchException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+   at ReviewApp.WebApp.Controllers.RestaurantController.Details(Int32 id) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\RestaurantController.cs:line 106
+   at lambda_method67(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2021-09-06 01:54:21.881 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.ThrowHelper.ThrowNoMatchException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+   at ReviewApp.WebApp.Controllers.RestaurantController.Details(Int32 id) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\RestaurantController.cs:line 106
+   at lambda_method67(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-06 01:54:27.789 -04:00 [INF] HTTP GET /Restaurant responded 200 in 64.7455 ms
+2021-09-06 01:54:33.918 -04:00 [INF] HTTP GET /Restaurant/Edit/4 responded 404 in 0.2178 ms
+2021-09-06 01:54:36.006 -04:00 [INF] HTTP GET /Restaurant responded 200 in 78.6272 ms
+2021-09-06 01:54:38.867 -04:00 [INF] HTTP GET /User responded 200 in 83.1085 ms
+2021-09-06 01:55:03.506 -04:00 [INF] HTTP GET /User/UpdateEmail/1 responded 200 in 67.7495 ms
+2021-09-06 01:55:09.955 -04:00 [INF] Admin get access to the page
+2021-09-06 01:55:10.026 -04:00 [INF] HTTP GET /User/Delete/1 responded 200 in 78.6957 ms
+2021-09-06 01:55:16.610 -04:00 [INF] HTTP GET /User responded 200 in 78.2105 ms
+2021-09-06 09:53:44.338 -04:00 [INF] HTTP GET /Restaurant responded 200 in 493.7181 ms
+2021-09-06 09:58:12.210 -04:00 [INF] Application Starting Up
+2021-09-06 09:58:13.762 -04:00 [INF] HTTP GET / responded 200 in 323.0658 ms
+2021-09-06 10:34:05.068 -04:00 [INF] HTTP GET / responded 200 in 20.9985 ms
+2021-09-06 10:38:42.866 -04:00 [INF] Application Starting Up
+2021-09-06 10:38:44.761 -04:00 [INF] HTTP GET / responded 200 in 394.7275 ms
+2021-09-06 10:38:56.507 -04:00 [INF] Application Starting Up
+2021-09-06 10:38:57.509 -04:00 [INF] HTTP GET / responded 200 in 433.6260 ms
+2021-09-06 10:41:32.818 -04:00 [INF] Application Starting Up
+2021-09-06 10:41:33.828 -04:00 [INF] HTTP GET / responded 200 in 451.4953 ms
+2021-09-06 10:43:52.472 -04:00 [INF] Application Starting Up
+2021-09-06 10:43:53.649 -04:00 [INF] HTTP GET / responded 200 in 525.8156 ms
+2021-09-06 10:44:00.575 -04:00 [INF] HTTP GET / responded 200 in 7.8839 ms
+2021-09-06 10:45:30.902 -04:00 [INF] Application Starting Up
+2021-09-06 10:45:32.153 -04:00 [INF] HTTP GET / responded 200 in 408.2630 ms
+2021-09-06 10:46:03.863 -04:00 [INF] Application Starting Up
+2021-09-06 10:46:04.856 -04:00 [INF] HTTP GET / responded 200 in 460.1704 ms
+2021-09-06 10:46:17.620 -04:00 [INF] Application Starting Up
+2021-09-06 10:46:18.612 -04:00 [INF] HTTP GET / responded 200 in 450.7958 ms
+2021-09-06 10:46:30.800 -04:00 [INF] Application Starting Up
+2021-09-06 10:46:32.132 -04:00 [INF] HTTP GET / responded 200 in 450.4585 ms
+2021-09-06 10:46:55.775 -04:00 [INF] Application Starting Up
+2021-09-06 10:46:56.789 -04:00 [INF] HTTP GET / responded 200 in 410.1682 ms
+2021-09-06 10:51:54.842 -04:00 [INF] Application Starting Up
+2021-09-06 10:51:56.617 -04:00 [INF] HTTP GET / responded 200 in 608.1297 ms
+2021-09-06 10:56:01.815 -04:00 [INF] Application Starting Up
+2021-09-06 10:56:03.464 -04:00 [INF] HTTP GET / responded 200 in 402.9673 ms
+2021-09-06 10:56:35.994 -04:00 [INF] Application Starting Up
+2021-09-06 10:56:36.841 -04:00 [INF] HTTP GET / responded 200 in 289.1121 ms
+2021-09-06 10:56:40.006 -04:00 [INF] HTTP GET /User/LogOut responded 302 in 38.7910 ms
+2021-09-06 10:56:40.024 -04:00 [INF] HTTP GET / responded 200 in 11.6820 ms
+2021-09-06 11:07:30.039 -04:00 [INF] Application Starting Up
+2021-09-06 11:07:31.149 -04:00 [INF] HTTP GET / responded 200 in 430.5064 ms
+2021-09-06 11:10:19.133 -04:00 [INF] Application Starting Up
+2021-09-06 11:10:20.156 -04:00 [INF] HTTP GET / responded 200 in 434.4751 ms
+2021-09-06 11:11:04.035 -04:00 [INF] Application Starting Up
+2021-09-06 11:11:05.199 -04:00 [INF] HTTP GET / responded 200 in 303.4540 ms
+2021-09-06 11:11:34.302 -04:00 [INF] Application Starting Up
+2021-09-06 11:11:35.483 -04:00 [INF] HTTP GET / responded 200 in 333.7748 ms
+2021-09-06 11:14:02.701 -04:00 [INF] HTTP GET / responded 200 in 6.7085 ms
+2021-09-06 11:20:20.117 -04:00 [INF] Application Starting Up
+2021-09-06 11:20:21.290 -04:00 [INF] HTTP GET / responded 200 in 449.2924 ms
+2021-09-06 11:24:13.501 -04:00 [INF] Application Starting Up
+2021-09-06 11:24:14.824 -04:00 [INF] HTTP GET / responded 200 in 299.3857 ms
+2021-09-06 11:24:42.714 -04:00 [INF] Application Starting Up
+2021-09-06 11:24:44.209 -04:00 [INF] HTTP GET / responded 200 in 510.1444 ms
+2021-09-06 11:25:26.772 -04:00 [INF] Application Starting Up
+2021-09-06 11:25:28.011 -04:00 [INF] HTTP GET / responded 200 in 341.8857 ms
+2021-09-06 11:26:54.689 -04:00 [INF] Application Starting Up
+2021-09-06 11:26:56.079 -04:00 [INF] HTTP GET / responded 200 in 297.1981 ms
+2021-09-06 11:28:18.606 -04:00 [INF] Application Starting Up
+2021-09-06 11:28:19.595 -04:00 [INF] HTTP GET / responded 200 in 458.3105 ms
+2021-09-06 11:28:46.347 -04:00 [INF] Application Starting Up
+2021-09-06 11:28:47.357 -04:00 [INF] HTTP GET / responded 200 in 362.0391 ms
+2021-09-06 11:29:01.892 -04:00 [INF] Application Starting Up
+2021-09-06 11:29:03.089 -04:00 [INF] HTTP GET / responded 200 in 365.8836 ms
+2021-09-06 11:29:17.405 -04:00 [INF] Application Starting Up
+2021-09-06 11:29:18.445 -04:00 [INF] HTTP GET / responded 200 in 424.9007 ms
+2021-09-06 11:29:58.644 -04:00 [INF] Application Starting Up
+2021-09-06 11:29:59.583 -04:00 [INF] HTTP GET / responded 200 in 414.9125 ms
+2021-09-06 11:30:37.462 -04:00 [INF] Application Starting Up
+2021-09-06 11:30:38.663 -04:00 [INF] HTTP GET / responded 200 in 361.8464 ms
+2021-09-06 11:31:51.587 -04:00 [INF] Application Starting Up
+2021-09-06 11:31:53.361 -04:00 [INF] HTTP GET / responded 200 in 319.4287 ms
+2021-09-06 11:35:28.808 -04:00 [INF] Application Starting Up
+2021-09-06 11:35:30.241 -04:00 [INF] HTTP GET / responded 200 in 341.3659 ms
+2021-09-06 11:36:00.918 -04:00 [INF] Application Starting Up
+2021-09-06 11:36:01.888 -04:00 [INF] HTTP GET / responded 200 in 429.8139 ms
+2021-09-06 11:37:17.564 -04:00 [INF] Application Starting Up
+2021-09-06 11:37:18.569 -04:00 [INF] HTTP GET / responded 200 in 463.0771 ms
+2021-09-06 11:40:01.869 -04:00 [INF] Application Starting Up
+2021-09-06 11:40:03.974 -04:00 [INF] HTTP GET / responded 200 in 555.4971 ms
+2021-09-06 11:40:46.622 -04:00 [INF] Application Starting Up
+2021-09-06 11:40:47.797 -04:00 [INF] HTTP GET / responded 200 in 346.1470 ms
+2021-09-06 11:41:33.476 -04:00 [INF] Application Starting Up
+2021-09-06 11:41:34.494 -04:00 [INF] HTTP GET / responded 200 in 462.2096 ms
+2021-09-06 11:42:06.419 -04:00 [INF] Application Starting Up
+2021-09-06 11:42:07.362 -04:00 [INF] HTTP GET / responded 200 in 416.4335 ms
+2021-09-06 11:44:19.113 -04:00 [INF] Application Starting Up
+2021-09-06 11:44:20.468 -04:00 [INF] HTTP GET / responded 200 in 612.9328 ms
+2021-09-06 11:44:42.426 -04:00 [INF] Application Starting Up
+2021-09-06 11:44:43.620 -04:00 [INF] HTTP GET / responded 200 in 593.3336 ms
+2021-09-06 11:45:33.483 -04:00 [INF] Application Starting Up
+2021-09-06 11:45:34.643 -04:00 [INF] HTTP GET / responded 200 in 455.6094 ms
+2021-09-06 11:48:20.241 -04:00 [INF] Application Starting Up
+2021-09-06 11:48:21.643 -04:00 [INF] HTTP GET / responded 200 in 678.0891 ms
+2021-09-06 11:49:17.652 -04:00 [INF] Application Starting Up
+2021-09-06 11:49:18.977 -04:00 [INF] HTTP GET / responded 200 in 383.2448 ms
+2021-09-06 11:49:58.736 -04:00 [INF] Application Starting Up
+2021-09-06 11:49:59.896 -04:00 [INF] HTTP GET / responded 200 in 344.8874 ms
+2021-09-06 11:50:55.642 -04:00 [INF] Application Starting Up
+2021-09-06 11:50:56.985 -04:00 [INF] HTTP GET / responded 200 in 471.2442 ms
+2021-09-06 11:51:08.604 -04:00 [INF] HTTP POST /Home/ShowSearchResults responded 404 in 2.5664 ms
+2021-09-06 11:51:13.843 -04:00 [INF] HTTP GET / responded 200 in 11.0847 ms
+2021-09-06 11:51:18.490 -04:00 [INF] HTTP POST /Home/ShowSearchResults responded 404 in 3.4728 ms
+2021-09-06 11:51:24.646 -04:00 [INF] HTTP GET / responded 200 in 4.8043 ms
+2021-09-06 11:54:00.260 -04:00 [INF] Application Starting Up
+2021-09-06 11:54:02.116 -04:00 [INF] HTTP GET / responded 200 in 536.3558 ms
+2021-09-06 11:54:20.988 -04:00 [INF] Application Starting Up
+2021-09-06 11:54:21.976 -04:00 [INF] HTTP GET / responded 200 in 437.5692 ms
+2021-09-06 11:54:29.813 -04:00 [INF] HTTP POST /Home/ShowSearchResults responded 404 in 2.4094 ms
+2021-09-06 11:54:34.721 -04:00 [INF] HTTP GET / responded 200 in 12.4889 ms
+2021-09-06 11:54:36.882 -04:00 [INF] HTTP GET /Restaurant/SearchForARestaurantForm responded 200 in 11.9135 ms
+2021-09-06 11:54:47.021 -04:00 [INF] HTTP POST /Restaurant/ShowSearchResults responded 200 in 2251.2648 ms
+2021-09-06 11:54:57.139 -04:00 [INF] HTTP GET /Restaurant/Details/4 responded 200 in 422.3454 ms
+2021-09-06 11:55:02.034 -04:00 [INF] HTTP GET /Restaurant/SearchForARestaurantForm responded 200 in 2.1308 ms
+2021-09-06 11:55:07.777 -04:00 [INF] HTTP GET / responded 200 in 3.0922 ms
+2021-09-06 11:56:23.518 -04:00 [INF] Application Starting Up
+2021-09-06 11:56:24.821 -04:00 [INF] HTTP GET / responded 200 in 295.1325 ms
+2021-09-06 11:56:35.154 -04:00 [INF] HTTP POST /Home/ShowSearchResults responded 404 in 2.2963 ms
+2021-09-06 11:56:37.289 -04:00 [INF] HTTP GET / responded 200 in 14.1632 ms
+2021-09-06 11:57:46.445 -04:00 [INF] Application Starting Up
+2021-09-06 11:57:47.405 -04:00 [INF] HTTP GET / responded 200 in 412.7708 ms
+2021-09-06 11:58:00.303 -04:00 [INF] Application Starting Up
+2021-09-06 11:58:01.515 -04:00 [INF] HTTP GET / responded 200 in 351.6735 ms
+2021-09-06 11:58:22.288 -04:00 [INF] HTTP POST /Home/ShowSearchResults responded 404 in 3.8184 ms
+2021-09-06 11:58:24.447 -04:00 [INF] HTTP GET / responded 200 in 16.1263 ms
+2021-09-06 11:59:13.920 -04:00 [INF] Application Starting Up
+2021-09-06 11:59:15.111 -04:00 [INF] HTTP GET / responded 200 in 385.3456 ms
+2021-09-06 11:59:20.867 -04:00 [INF] HTTP POST /Home/ShowSearchResults responded 404 in 3.0050 ms
+2021-09-06 11:59:29.477 -04:00 [INF] HTTP GET / responded 200 in 12.1854 ms
+2021-09-06 12:00:48.307 -04:00 [INF] Application Starting Up
+2021-09-06 12:00:49.809 -04:00 [INF] HTTP GET / responded 200 in 420.2546 ms
+2021-09-06 12:00:57.408 -04:00 [INF] HTTP POST /Home/ShowSearchResults responded 404 in 2.9686 ms
+2021-09-06 12:01:04.162 -04:00 [INF] HTTP GET / responded 200 in 13.4418 ms
+2021-09-06 12:01:38.232 -04:00 [INF] Application Starting Up
+2021-09-06 12:01:39.198 -04:00 [INF] HTTP GET / responded 200 in 411.7776 ms
+2021-09-06 12:45:16.661 -04:00 [INF] HTTP GET /login responded 200 in 82.5386 ms
+2021-09-06 12:45:24.567 -04:00 [INF] HTTP POST /login?ReturnUrl= responded 302 in 1704.3490 ms
+2021-09-06 12:45:24.580 -04:00 [INF] HTTP GET /User/Result responded 200 in 6.1452 ms
+2021-09-06 12:45:29.641 -04:00 [INF] HTTP GET /User responded 200 in 144.7393 ms
+2021-09-06 12:45:33.329 -04:00 [INF] Privacy
+2021-09-06 12:45:33.331 -04:00 [ERR] This Exception from Privacy Page
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ReviewApp.WebApp.Controllers.HomeController.Privacy() in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\HomeController.cs:line 35
+2021-09-06 12:45:33.405 -04:00 [INF] HTTP GET /Home/Privacy responded 200 in 80.1286 ms
+2021-09-06 12:45:35.076 -04:00 [INF] HTTP GET /Restaurant responded 200 in 98.0241 ms
+2021-09-06 12:45:44.519 -04:00 [INF] HTTP GET / responded 200 in 3.0790 ms
+2021-09-06 16:22:50.047 -04:00 [INF] Application Starting Up
+2021-09-06 16:22:51.435 -04:00 [INF] HTTP GET / responded 200 in 469.3973 ms
+2021-09-06 16:25:04.170 -04:00 [INF] Application Starting Up
+2021-09-06 16:25:04.567 -04:00 [FTL] The application failed to start.
+System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.Uri..ctor(String uriString)
+   at ReviewApp.WebApp.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext context, IConfigurationBuilder config) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Program.cs:line 56
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at ReviewApp.WebApp.Program.Main(String[] args) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Program.cs:line 36

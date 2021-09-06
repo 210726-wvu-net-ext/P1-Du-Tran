@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ReviewApp.Domain
 {
-    class ReviewJoin
+    public class ReviewJoin
     {
         public ReviewJoin(int restaurantId, int customerId, int reviewId)
         {

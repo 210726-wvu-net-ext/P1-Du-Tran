@@ -23,12 +23,21 @@ namespace ReviewApp.WebApp.Controllers
 
         public IActionResult Index()
         {
-            var customers = _repo.GetAllCustomers();
-            return View(model: customers);
+            //var customers = _repo.GetAllCustomers();
+            return View();
         }
 
         public IActionResult Privacy()
         {
+            _logger.LogInformation("Privacy");
+            try
+            {
+                throw new Exception();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "This Exception from Privacy Page");
+            }
             return View();
         }
 

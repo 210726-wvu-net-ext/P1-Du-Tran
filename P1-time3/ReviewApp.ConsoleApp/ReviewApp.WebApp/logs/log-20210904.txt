@@ -1,0 +1,705 @@
+2021-09-04 15:31:28.723 -04:00 [INF] Application Starting Up
+2021-09-04 15:31:28.989 -04:00 [INF] User profile is available. Using 'C:\Users\doanm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-04 15:31:29.120 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-04 15:31:29.120 -04:00 [INF] Hosting environment: Development
+2021-09-04 15:31:29.121 -04:00 [INF] Content root path: D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp
+2021-09-04 15:31:29.148 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/ - -
+2021-09-04 15:31:29.216 -04:00 [INF] Executing endpoint 'ReviewApp.WebApp.Controllers.HomeController.Index (ReviewApp.WebApp)'
+2021-09-04 15:31:29.250 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReviewApp.WebApp.Controllers.HomeController (ReviewApp.WebApp).
+2021-09-04 15:31:29.406 -04:00 [INF] Executing ViewResult, running view Index.
+2021-09-04 15:31:29.607 -04:00 [INF] Executed ViewResult - view Index executed in 204.434ms.
+2021-09-04 15:31:29.610 -04:00 [INF] Executed action ReviewApp.WebApp.Controllers.HomeController.Index (ReviewApp.WebApp) in 358.8298ms
+2021-09-04 15:31:29.611 -04:00 [INF] Executed endpoint 'ReviewApp.WebApp.Controllers.HomeController.Index (ReviewApp.WebApp)'
+2021-09-04 15:31:29.613 -04:00 [INF] HTTP GET / responded 200 in 449.0800 ms
+2021-09-04 15:31:29.642 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/ - - - 200 - text/html;+charset=utf-8 484.5145ms
+2021-09-04 15:31:29.695 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - -
+2021-09-04 15:31:29.704 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - - - 200 7927 application/javascript;+charset=utf-8 9.3843ms
+2021-09-04 15:31:33.945 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/Home/Privacy - -
+2021-09-04 15:31:33.951 -04:00 [INF] Executing endpoint 'ReviewApp.WebApp.Controllers.HomeController.Privacy (ReviewApp.WebApp)'
+2021-09-04 15:31:33.955 -04:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller ReviewApp.WebApp.Controllers.HomeController (ReviewApp.WebApp).
+2021-09-04 15:31:33.957 -04:00 [INF] Privacy
+2021-09-04 15:31:33.957 -04:00 [ERR] This Exception from Privacy Page
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ReviewApp.WebApp.Controllers.HomeController.Privacy() in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\HomeController.cs:line 35
+2021-09-04 15:31:33.994 -04:00 [INF] Executing ViewResult, running view Privacy.
+2021-09-04 15:31:33.999 -04:00 [INF] Executed ViewResult - view Privacy executed in 7.1601ms.
+2021-09-04 15:31:34.000 -04:00 [INF] Executed action ReviewApp.WebApp.Controllers.HomeController.Privacy (ReviewApp.WebApp) in 44.4613ms
+2021-09-04 15:31:34.000 -04:00 [INF] Executed endpoint 'ReviewApp.WebApp.Controllers.HomeController.Privacy (ReviewApp.WebApp)'
+2021-09-04 15:31:34.000 -04:00 [INF] HTTP GET /Home/Privacy responded 200 in 54.1568 ms
+2021-09-04 15:31:34.001 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/Home/Privacy - - - 200 - text/html;+charset=utf-8 55.6938ms
+2021-09-04 15:31:34.044 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - -
+2021-09-04 15:31:34.048 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - - - 200 7927 application/javascript;+charset=utf-8 4.2480ms
+2021-09-04 15:36:42.748 -04:00 [INF] Application Starting Up
+2021-09-04 15:36:44.226 -04:00 [INF] User profile is available. Using 'C:\Users\doanm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-04 15:36:44.537 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-04 15:36:44.537 -04:00 [INF] Hosting environment: Development
+2021-09-04 15:36:44.537 -04:00 [INF] Content root path: D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp
+2021-09-04 15:36:44.590 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/ - -
+2021-09-04 15:36:44.641 -04:00 [INF] Executing endpoint 'ReviewApp.WebApp.Controllers.HomeController.Index (ReviewApp.WebApp)'
+2021-09-04 15:36:44.682 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReviewApp.WebApp.Controllers.HomeController (ReviewApp.WebApp).
+2021-09-04 15:36:44.862 -04:00 [INF] Executing ViewResult, running view Index.
+2021-09-04 15:36:45.070 -04:00 [INF] Executed ViewResult - view Index executed in 209.8591ms.
+2021-09-04 15:36:45.079 -04:00 [INF] Executed action ReviewApp.WebApp.Controllers.HomeController.Index (ReviewApp.WebApp) in 396.1269ms
+2021-09-04 15:36:45.080 -04:00 [INF] Executed endpoint 'ReviewApp.WebApp.Controllers.HomeController.Index (ReviewApp.WebApp)'
+2021-09-04 15:36:45.112 -04:00 [INF] HTTP GET / responded 200 in 485.0650 ms
+2021-09-04 15:36:45.145 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/ - - - 200 - text/html;+charset=utf-8 557.9458ms
+2021-09-04 15:36:48.077 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/Home/Privacy - -
+2021-09-04 15:36:48.084 -04:00 [INF] Executing endpoint 'ReviewApp.WebApp.Controllers.HomeController.Privacy (ReviewApp.WebApp)'
+2021-09-04 15:36:48.087 -04:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller ReviewApp.WebApp.Controllers.HomeController (ReviewApp.WebApp).
+2021-09-04 15:37:04.507 -04:00 [INF] Privacy
+2021-09-04 15:37:21.838 -04:00 [ERR] This Exception from Privacy Page
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ReviewApp.WebApp.Controllers.HomeController.Privacy() in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\HomeController.cs:line 35
+2021-09-04 15:41:56.691 -04:00 [INF] Executing ViewResult, running view Privacy.
+2021-09-04 15:41:57.347 -04:00 [INF] Executed ViewResult - view Privacy executed in 730.6811ms.
+2021-09-04 15:41:57.347 -04:00 [INF] Executed action ReviewApp.WebApp.Controllers.HomeController.Privacy (ReviewApp.WebApp) in 309259.3156ms
+2021-09-04 15:41:57.347 -04:00 [INF] Executed endpoint 'ReviewApp.WebApp.Controllers.HomeController.Privacy (ReviewApp.WebApp)'
+2021-09-04 15:41:57.347 -04:00 [INF] HTTP GET /Home/Privacy responded 200 in 309268.4859 ms
+2021-09-04 15:41:57.348 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/Home/Privacy - - - 200 - text/html;+charset=utf-8 309271.1488ms
+2021-09-04 15:46:26.836 -04:00 [INF] Application Starting Up
+2021-09-04 15:46:27.463 -04:00 [INF] User profile is available. Using 'C:\Users\doanm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-04 15:46:27.648 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-04 15:46:27.648 -04:00 [INF] Hosting environment: Development
+2021-09-04 15:46:27.649 -04:00 [INF] Content root path: D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp
+2021-09-04 15:46:27.690 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/ - -
+2021-09-04 15:46:27.745 -04:00 [INF] Executing endpoint 'ReviewApp.WebApp.Controllers.HomeController.Index (ReviewApp.WebApp)'
+2021-09-04 15:46:27.776 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReviewApp.WebApp.Controllers.HomeController (ReviewApp.WebApp).
+2021-09-04 15:46:27.911 -04:00 [INF] Executing ViewResult, running view Index.
+2021-09-04 15:46:28.091 -04:00 [INF] Executed ViewResult - view Index executed in 180.0695ms.
+2021-09-04 15:46:28.094 -04:00 [INF] Executed action ReviewApp.WebApp.Controllers.HomeController.Index (ReviewApp.WebApp) in 318.0631ms
+2021-09-04 15:46:28.095 -04:00 [INF] Executed endpoint 'ReviewApp.WebApp.Controllers.HomeController.Index (ReviewApp.WebApp)'
+2021-09-04 15:46:28.099 -04:00 [INF] HTTP GET / responded 200 in 392.3640 ms
+2021-09-04 15:46:28.111 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/ - - - 200 - text/html;+charset=utf-8 425.1987ms
+2021-09-04 15:46:28.187 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - -
+2021-09-04 15:46:28.201 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - - - 200 7927 application/javascript;+charset=utf-8 13.6538ms
+2021-09-04 15:46:32.479 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/login - -
+2021-09-04 15:46:32.484 -04:00 [INF] Executing endpoint 'ReviewApp.WebApp.Controllers.UserController.LogIn (ReviewApp.WebApp)'
+2021-09-04 15:46:32.502 -04:00 [INF] Route matched with {action = "LogIn", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogIn(System.String) on controller ReviewApp.WebApp.Controllers.UserController (ReviewApp.WebApp).
+2021-09-04 15:46:32.517 -04:00 [INF] Executing ViewResult, running view LogIn.
+2021-09-04 15:46:32.578 -04:00 [INF] Executed ViewResult - view LogIn executed in 63.2919ms.
+2021-09-04 15:46:32.579 -04:00 [INF] Executed action ReviewApp.WebApp.Controllers.UserController.LogIn (ReviewApp.WebApp) in 76.2649ms
+2021-09-04 15:46:32.579 -04:00 [INF] Executed endpoint 'ReviewApp.WebApp.Controllers.UserController.LogIn (ReviewApp.WebApp)'
+2021-09-04 15:46:32.580 -04:00 [INF] HTTP GET /login responded 200 in 99.8250 ms
+2021-09-04 15:46:32.581 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/login - - - 200 - text/html;+charset=utf-8 101.5097ms
+2021-09-04 15:46:32.636 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - -
+2021-09-04 15:46:32.637 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+2021-09-04 15:46:32.638 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/lib/jquery-validation/dist/jquery.validate.min.js - -
+2021-09-04 15:46:32.642 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - - - 200 7927 application/javascript;+charset=utf-8 6.1023ms
+2021-09-04 15:46:32.645 -04:00 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+2021-09-04 15:46:32.645 -04:00 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2021-09-04 15:46:32.647 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/lib/jquery-validation/dist/jquery.validate.min.js - - - 304 - application/javascript 9.6078ms
+2021-09-04 15:46:32.647 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 304 - application/javascript 9.9747ms
+2021-09-04 15:46:40.258 -04:00 [INF] Request starting HTTP/2 POST https://localhost:44341/login?ReturnUrl= application/x-www-form-urlencoded 32
+2021-09-04 15:46:40.264 -04:00 [INF] Executing endpoint 'ReviewApp.WebApp.Controllers.UserController.Validate (ReviewApp.WebApp)'
+2021-09-04 15:46:40.279 -04:00 [INF] Route matched with {action = "Validate", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Validate(System.String, System.String, System.String) on controller ReviewApp.WebApp.Controllers.UserController (ReviewApp.WebApp).
+2021-09-04 15:46:41.022 -04:00 [INF] Entity Framework Core 5.0.9 initialized 'ReviewDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-09-04 15:46:42.603 -04:00 [INF] Executed DbCommand (168ms) [Parameters=[@__userName_0='?' (Size = 10) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Password], [c].[UserName]
+FROM [Customer] AS [c]
+WHERE [c].[UserName] = @__userName_0
+2021-09-04 15:46:42.699 -04:00 [INF] AuthenticationScheme: Cookies signed in.
+2021-09-04 15:46:42.700 -04:00 [INF] Executing RedirectResult, redirecting to /User.
+2021-09-04 15:46:42.700 -04:00 [INF] Executed action ReviewApp.WebApp.Controllers.UserController.Validate (ReviewApp.WebApp) in 2421.2607ms
+2021-09-04 15:46:42.700 -04:00 [INF] Executed endpoint 'ReviewApp.WebApp.Controllers.UserController.Validate (ReviewApp.WebApp)'
+2021-09-04 15:46:42.701 -04:00 [INF] HTTP POST /login?ReturnUrl= responded 302 in 2442.1037 ms
+2021-09-04 15:46:42.706 -04:00 [INF] Request finished HTTP/2 POST https://localhost:44341/login?ReturnUrl= application/x-www-form-urlencoded 32 - 302 - - 2447.8983ms
+2021-09-04 15:46:42.707 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/User - -
+2021-09-04 15:46:42.713 -04:00 [INF] Authorization was successful.
+2021-09-04 15:46:42.714 -04:00 [INF] Executing endpoint 'ReviewApp.WebApp.Controllers.UserController.Index (ReviewApp.WebApp)'
+2021-09-04 15:46:42.715 -04:00 [INF] Route matched with {action = "Index", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReviewApp.WebApp.Controllers.UserController (ReviewApp.WebApp).
+2021-09-04 15:46:42.717 -04:00 [INF] Executing ViewResult, running view Index.
+2021-09-04 15:46:42.720 -04:00 [INF] Executed ViewResult - view Index executed in 4.1143ms.
+2021-09-04 15:46:42.720 -04:00 [INF] Executed action ReviewApp.WebApp.Controllers.UserController.Index (ReviewApp.WebApp) in 5.0396ms
+2021-09-04 15:46:42.721 -04:00 [INF] Executed endpoint 'ReviewApp.WebApp.Controllers.UserController.Index (ReviewApp.WebApp)'
+2021-09-04 15:46:42.721 -04:00 [INF] HTTP GET /User responded 200 in 13.2182 ms
+2021-09-04 15:46:42.721 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/User - - - 200 - text/html;+charset=utf-8 13.7094ms
+2021-09-04 15:46:42.772 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - -
+2021-09-04 15:46:42.774 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - - - 200 7927 application/javascript;+charset=utf-8 2.1001ms
+2021-09-04 15:46:47.802 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/Restaurant - -
+2021-09-04 15:46:47.805 -04:00 [INF] Executing endpoint 'ReviewApp.WebApp.Controllers.RestaurantController.Index (ReviewApp.WebApp)'
+2021-09-04 15:46:47.809 -04:00 [INF] Route matched with {action = "Index", controller = "Restaurant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReviewApp.WebApp.Controllers.RestaurantController (ReviewApp.WebApp).
+2021-09-04 15:46:47.844 -04:00 [INF] Entity Framework Core 5.0.9 initialized 'ReviewDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-09-04 15:46:47.942 -04:00 [INF] Executed DbCommand (72ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Name], [r].[Location], [r].[Contact], [r].[Zipcode]
+FROM [Restaurant] AS [r]
+2021-09-04 15:46:47.950 -04:00 [INF] Executing ViewResult, running view Index.
+2021-09-04 15:46:48.006 -04:00 [INF] Executed ViewResult - view Index executed in 57.3995ms.
+2021-09-04 15:46:48.006 -04:00 [INF] Executed action ReviewApp.WebApp.Controllers.RestaurantController.Index (ReviewApp.WebApp) in 196.6728ms
+2021-09-04 15:46:48.006 -04:00 [INF] Executed endpoint 'ReviewApp.WebApp.Controllers.RestaurantController.Index (ReviewApp.WebApp)'
+2021-09-04 15:46:48.006 -04:00 [INF] HTTP GET /Restaurant responded 200 in 204.2927 ms
+2021-09-04 15:46:48.007 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/Restaurant - - - 200 - text/html;+charset=utf-8 205.3641ms
+2021-09-04 15:46:48.071 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - -
+2021-09-04 15:46:48.072 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - - - 200 7927 application/javascript;+charset=utf-8 1.2158ms
+2021-09-04 15:46:51.548 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/Restaurant/Details/1 - -
+2021-09-04 15:46:51.551 -04:00 [INF] Executing endpoint 'ReviewApp.WebApp.Controllers.RestaurantController.Details (ReviewApp.WebApp)'
+2021-09-04 15:46:51.553 -04:00 [INF] Route matched with {action = "Details", controller = "Restaurant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Details(Int32) on controller ReviewApp.WebApp.Controllers.RestaurantController (ReviewApp.WebApp).
+2021-09-04 15:46:51.564 -04:00 [INF] Entity Framework Core 5.0.9 initialized 'ReviewDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-09-04 15:46:51.629 -04:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[RestaurantId], [r].[CustomerId], [r].[ReviewId]
+FROM [ReviewJoin] AS [r]
+2021-09-04 15:46:51.696 -04:00 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Name], [r].[Location], [r].[Contact], [r].[Zipcode]
+FROM [Restaurant] AS [r]
+2021-09-04 15:46:51.767 -04:00 [INF] Executed DbCommand (50ms) [Parameters=[@__name_0='?' (Size = 100) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Contact], [r].[Location], [r].[Name], [r].[Zipcode]
+FROM [Restaurant] AS [r]
+WHERE [r].[Name] = @__name_0
+2021-09-04 15:46:51.855 -04:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[RestaurantId], [r].[CustomerId], [r].[ReviewId]
+FROM [ReviewJoin] AS [r]
+2021-09-04 15:46:51.925 -04:00 [INF] Executed DbCommand (51ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Comment], [r].[Rating], [r].[Time]
+FROM [Review] AS [r]
+WHERE [r].[Id] = @__id_0
+2021-09-04 15:46:52.039 -04:00 [INF] Executed DbCommand (52ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Comment], [r].[Rating], [r].[Time]
+FROM [Review] AS [r]
+WHERE [r].[Id] = @__id_0
+2021-09-04 15:46:52.095 -04:00 [INF] Executed DbCommand (54ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Comment], [r].[Rating], [r].[Time]
+FROM [Review] AS [r]
+WHERE [r].[Id] = @__id_0
+2021-09-04 15:46:52.096 -04:00 [INF] Executing ViewResult, running view Details.
+2021-09-04 15:46:52.122 -04:00 [INF] Executed ViewResult - view Details executed in 25.7621ms.
+2021-09-04 15:46:52.122 -04:00 [INF] Executed action ReviewApp.WebApp.Controllers.RestaurantController.Details (ReviewApp.WebApp) in 568.3771ms
+2021-09-04 15:46:52.122 -04:00 [INF] Executed endpoint 'ReviewApp.WebApp.Controllers.RestaurantController.Details (ReviewApp.WebApp)'
+2021-09-04 15:46:52.122 -04:00 [INF] HTTP GET /Restaurant/Details/1 responded 200 in 573.0821 ms
+2021-09-04 15:46:52.122 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/Restaurant/Details/1 - - - 200 - text/html;+charset=utf-8 573.7881ms
+2021-09-04 15:46:52.159 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - -
+2021-09-04 15:46:52.171 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - - - 200 7927 application/javascript;+charset=utf-8 11.9738ms
+2021-09-04 15:46:53.928 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/Restaurant/LeaveReviews - -
+2021-09-04 15:46:53.938 -04:00 [INF] Authorization was successful.
+2021-09-04 15:46:53.938 -04:00 [INF] Executing endpoint 'ReviewApp.WebApp.Controllers.RestaurantController.LeaveReviews (ReviewApp.WebApp)'
+2021-09-04 15:46:53.940 -04:00 [INF] Route matched with {action = "LeaveReviews", controller = "Restaurant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LeaveReviews() on controller ReviewApp.WebApp.Controllers.RestaurantController (ReviewApp.WebApp).
+2021-09-04 15:46:53.942 -04:00 [INF] Executing ViewResult, running view LeaveReviews.
+2021-09-04 15:46:53.976 -04:00 [INF] Executed ViewResult - view LeaveReviews executed in 35.2244ms.
+2021-09-04 15:46:53.977 -04:00 [INF] Executed action ReviewApp.WebApp.Controllers.RestaurantController.LeaveReviews (ReviewApp.WebApp) in 36.0121ms
+2021-09-04 15:46:53.977 -04:00 [INF] Executed endpoint 'ReviewApp.WebApp.Controllers.RestaurantController.LeaveReviews (ReviewApp.WebApp)'
+2021-09-04 15:46:53.977 -04:00 [INF] HTTP GET /Restaurant/LeaveReviews responded 200 in 48.6485 ms
+2021-09-04 15:46:53.977 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/Restaurant/LeaveReviews - - - 200 - text/html;+charset=utf-8 49.1478ms
+2021-09-04 15:46:54.026 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - -
+2021-09-04 15:46:54.030 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - - - 200 7927 application/javascript;+charset=utf-8 4.4939ms
+2021-09-04 15:46:55.867 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/Restaurant - -
+2021-09-04 15:46:55.867 -04:00 [INF] Executing endpoint 'ReviewApp.WebApp.Controllers.RestaurantController.Index (ReviewApp.WebApp)'
+2021-09-04 15:46:55.868 -04:00 [INF] Route matched with {action = "Index", controller = "Restaurant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReviewApp.WebApp.Controllers.RestaurantController (ReviewApp.WebApp).
+2021-09-04 15:46:55.869 -04:00 [INF] Entity Framework Core 5.0.9 initialized 'ReviewDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-09-04 15:46:55.926 -04:00 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Name], [r].[Location], [r].[Contact], [r].[Zipcode]
+FROM [Restaurant] AS [r]
+2021-09-04 15:46:55.926 -04:00 [INF] Executing ViewResult, running view Index.
+2021-09-04 15:46:55.935 -04:00 [INF] Executed ViewResult - view Index executed in 8.6087ms.
+2021-09-04 15:46:55.935 -04:00 [INF] Executed action ReviewApp.WebApp.Controllers.RestaurantController.Index (ReviewApp.WebApp) in 66.8567ms
+2021-09-04 15:46:55.935 -04:00 [INF] Executed endpoint 'ReviewApp.WebApp.Controllers.RestaurantController.Index (ReviewApp.WebApp)'
+2021-09-04 15:46:55.935 -04:00 [INF] HTTP GET /Restaurant responded 200 in 68.3719 ms
+2021-09-04 15:46:55.936 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/Restaurant - - - 200 - text/html;+charset=utf-8 69.3997ms
+2021-09-04 15:46:56.003 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - -
+2021-09-04 15:46:56.012 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/_framework/aspnetcore-browser-refresh.js - - - 200 7927 application/javascript;+charset=utf-8 8.8045ms
+2021-09-04 15:48:04.646 -04:00 [INF] Application Starting Up
+2021-09-04 15:48:05.870 -04:00 [DBG] Hosting starting
+2021-09-04 15:48:05.935 -04:00 [INF] User profile is available. Using 'C:\Users\doanm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-04 15:48:05.947 -04:00 [DBG] Reading data from file 'C:\Users\doanm\AppData\Local\ASP.NET\DataProtection-Keys\key-cc777231-af3a-4060-9813-55bc0c778b93.xml'.
+2021-09-04 15:48:05.981 -04:00 [DBG] Found key {cc777231-af3a-4060-9813-55bc0c778b93}.
+2021-09-04 15:48:05.995 -04:00 [DBG] Considering key {cc777231-af3a-4060-9813-55bc0c778b93} with expiration date 2021-11-23 19:24:43Z as default key.
+2021-09-04 15:48:06.006 -04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-09-04 15:48:06.009 -04:00 [DBG] Decrypting secret element using Windows DPAPI.
+2021-09-04 15:48:06.011 -04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-09-04 15:48:06.014 -04:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2021-09-04 15:48:06.017 -04:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2021-09-04 15:48:06.021 -04:00 [DBG] Using key {cc777231-af3a-4060-9813-55bc0c778b93} as the default key.
+2021-09-04 15:48:06.023 -04:00 [DBG] Key ring with default key {cc777231-af3a-4060-9813-55bc0c778b93} was loaded during application startup.
+2021-09-04 15:48:06.211 -04:00 [DBG] Loaded hosting startup assembly ReviewApp.WebApp
+2021-09-04 15:48:06.211 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-04 15:48:06.212 -04:00 [INF] Hosting environment: Development
+2021-09-04 15:48:06.212 -04:00 [INF] Content root path: D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp
+2021-09-04 15:48:06.212 -04:00 [DBG] Hosting started
+2021-09-04 15:48:06.262 -04:00 [INF] Request starting HTTP/2 GET https://localhost:44341/ - -
+2021-09-04 15:48:06.264 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-09-04 15:48:06.266 -04:00 [DBG] The request path / does not match a supported file type
+2021-09-04 15:48:06.302 -04:00 [DBG] 1 candidate(s) found for the request path '/'
+2021-09-04 15:48:06.306 -04:00 [DBG] Endpoint 'ReviewApp.WebApp.Controllers.HomeController.Index (ReviewApp.WebApp)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2021-09-04 15:48:06.308 -04:00 [DBG] Request matched endpoint 'ReviewApp.WebApp.Controllers.HomeController.Index (ReviewApp.WebApp)'
+2021-09-04 15:48:06.339 -04:00 [DBG] AuthenticationScheme: Cookies was successfully authenticated.
+2021-09-04 15:48:06.343 -04:00 [INF] Executing endpoint 'ReviewApp.WebApp.Controllers.HomeController.Index (ReviewApp.WebApp)'
+2021-09-04 15:48:06.358 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-09-04 15:48:06.393 -04:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ReviewApp.WebApp.Controllers.HomeController (ReviewApp.WebApp).
+2021-09-04 15:48:06.394 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-09-04 15:48:06.395 -04:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2021-09-04 15:48:06.395 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2021-09-04 15:48:06.395 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-09-04 15:48:06.395 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2021-09-04 15:48:06.398 -04:00 [DBG] Executing controller factory for controller ReviewApp.WebApp.Controllers.HomeController (ReviewApp.WebApp)
+2021-09-04 15:48:06.517 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2021-09-04 15:48:06.564 -04:00 [DBG] Executed controller factory for controller ReviewApp.WebApp.Controllers.HomeController (ReviewApp.WebApp)
+2021-09-04 15:48:06.575 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2021-09-04 15:48:06.575 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2021-09-04 15:48:06.576 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Restaurant/Details.cshtml'.
+2021-09-04 15:48:06.576 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Restaurant/Details2.cshtml'.
+2021-09-04 15:48:06.576 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Restaurant/Index.cshtml'.
+2021-09-04 15:48:06.576 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Restaurant/LeaveReviews.cshtml'.
+2021-09-04 15:48:06.576 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Restaurant/Review.cshtml'.
+2021-09-04 15:48:06.576 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Restaurant/SearchForARestaurantForm.cshtml'.
+2021-09-04 15:48:06.576 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2021-09-04 15:48:06.576 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/ErrorMessage.cshtml'.
+2021-09-04 15:48:06.576 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2021-09-04 15:48:06.576 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_LoginPartial.cshtml'.
+2021-09-04 15:48:06.577 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2021-09-04 15:48:06.577 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/CreateAnAccount.cshtml'.
+2021-09-04 15:48:06.577 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/Denied.cshtml'.
+2021-09-04 15:48:06.577 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/Details.cshtml'.
+2021-09-04 15:48:06.577 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/Index.cshtml'.
+2021-09-04 15:48:06.577 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/User/LogIn.cshtml'.
+2021-09-04 15:48:06.577 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2021-09-04 15:48:06.577 -04:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2021-09-04 15:48:06.590 -04:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2021-09-04 15:48:06.602 -04:00 [INF] Executing ViewResult, running view Index.
+2021-09-04 15:48:06.607 -04:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 13.8712ms.
+2021-09-04 15:48:06.651 -04:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2021-09-04 15:48:06.730 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-09-04 15:48:06.740 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2021-09-04 15:48:06.749 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2021-09-04 15:48:06.753 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-09-04 15:48:06.753 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2021-09-04 15:48:06.754 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2021-09-04 15:48:06.756 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-09-04 15:48:06.757 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2021-09-04 15:48:06.758 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2021-09-04 15:48:06.759 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-09-04 15:48:06.759 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Restaurant and 
+2021-09-04 15:48:06.759 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Restaurant
+2021-09-04 15:48:06.760 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-09-04 15:48:06.760 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Restaurant/SearchForARestaurantForm and 
+2021-09-04 15:48:06.760 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Restaurant/SearchForARestaurantForm
+2021-09-04 15:48:06.761 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-09-04 15:48:06.762 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /User/CreateAnAccount and 
+2021-09-04 15:48:06.762 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /User/CreateAnAccount
+2021-09-04 15:48:06.764 -04:00 [DBG] View lookup cache miss for view '_LoginPartial' in controller 'Home'.
+2021-09-04 15:48:06.771 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-09-04 15:48:06.771 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /User/LogOut and 
+2021-09-04 15:48:06.772 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /User/LogOut
+2021-09-04 15:48:06.773 -04:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2021-09-04 15:48:06.773 -04:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2021-09-04 15:48:06.773 -04:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2021-09-04 15:48:06.809 -04:00 [INF] Executed ViewResult - view Index executed in 221.6289ms.
+2021-09-04 15:48:06.810 -04:00 [INF] Executed action ReviewApp.WebApp.Controllers.HomeController.Index (ReviewApp.WebApp) in 414.302ms
+2021-09-04 15:48:06.811 -04:00 [INF] Executed endpoint 'ReviewApp.WebApp.Controllers.HomeController.Index (ReviewApp.WebApp)'
+2021-09-04 15:48:06.813 -04:00 [INF] HTTP GET / responded 200 in 543.7593 ms
+2021-09-04 15:48:06.823 -04:00 [DBG] Connection ID "18230571301796315294" disconnecting.
+2021-09-04 15:48:06.834 -04:00 [INF] Request finished HTTP/2 GET https://localhost:44341/ - - - 200 - text/html;+charset=utf-8 573.9555ms
+2021-09-04 16:15:01.628 -04:00 [INF] Application Starting Up
+2021-09-04 16:15:03.791 -04:00 [INF] HTTP GET / responded 200 in 466.7039 ms
+2021-09-04 16:15:16.863 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2508.7532 ms
+2021-09-04 16:15:19.543 -04:00 [INF] HTTP GET /Restaurant/Details/1 responded 200 in 907.1408 ms
+2021-09-04 16:15:21.235 -04:00 [INF] HTTP GET /Restaurant/LeaveReviews responded 200 in 136.9390 ms
+2021-09-04 16:15:27.433 -04:00 [ERR] This exception from Leave Review
+System.Exception: To leave Review, customerId cannot be 0
+   at ReviewApp.WebApp.Controllers.RestaurantController.LeaveReviews(Review review) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\RestaurantController.cs:line 144
+2021-09-04 16:15:27.548 -04:00 [INF] HTTP POST /Restaurant/LeaveReviews responded 200 in 272.2804 ms
+2021-09-04 16:17:18.876 -04:00 [INF] HTTP GET /User/LogOut responded 302 in 45.8007 ms
+2021-09-04 16:17:18.890 -04:00 [INF] HTTP GET / responded 200 in 5.8676 ms
+2021-09-04 16:48:34.594 -04:00 [INF] Application Starting Up
+2021-09-04 16:48:35.297 -04:00 [FTL] The application failed to start.
+System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.Uri..ctor(String uriString)
+   at ReviewApp.WebApp.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext context, IConfigurationBuilder config) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Program.cs:line 56
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at ReviewApp.WebApp.Program.Main(String[] args) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Program.cs:line 36
+2021-09-04 16:49:20.469 -04:00 [INF] Application Starting Up
+2021-09-04 16:49:20.727 -04:00 [FTL] The application failed to start.
+System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.Uri..ctor(String uriString)
+   at ReviewApp.WebApp.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext context, IConfigurationBuilder config) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Program.cs:line 56
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at ReviewApp.WebApp.Program.Main(String[] args) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Program.cs:line 36
+2021-09-04 16:50:05.258 -04:00 [INF] Application Starting Up
+2021-09-04 16:50:08.348 -04:00 [INF] HTTP GET / responded 200 in 853.8992 ms
+2021-09-04 16:50:37.530 -04:00 [INF] Application Starting Up
+2021-09-04 16:50:40.035 -04:00 [INF] HTTP GET / responded 200 in 430.3479 ms
+2021-09-04 16:50:43.427 -04:00 [INF] HTTP GET /login responded 200 in 115.2580 ms
+2021-09-04 16:50:51.489 -04:00 [INF] HTTP POST /login?ReturnUrl= responded 302 in 2688.8682 ms
+2021-09-04 16:50:51.507 -04:00 [INF] HTTP GET /User responded 200 in 11.7863 ms
+2021-09-04 16:50:53.861 -04:00 [INF] HTTP GET /Restaurant responded 200 in 196.6637 ms
+2021-09-04 16:50:55.918 -04:00 [INF] HTTP GET /Restaurant/Details/1 responded 200 in 678.2198 ms
+2021-09-04 16:50:57.177 -04:00 [INF] HTTP GET /Restaurant/LeaveReviews responded 302 in 21.3261 ms
+2021-09-04 16:50:57.189 -04:00 [INF] HTTP GET /denied?ReturnUrl=%2FRestaurant%2FLeaveReviews responded 200 in 4.2653 ms
+2021-09-04 16:54:54.451 -04:00 [INF] Privacy
+2021-09-04 16:54:54.451 -04:00 [INF] Privacy
+2021-09-04 16:55:09.335 -04:00 [INF] HTTP GET / responded 200 in 33230.5386 ms
+2021-09-04 16:55:16.155 -04:00 [INF] HTTP GET /denied?ReturnUrl=%2FRestaurant%2FLeaveReviews responded 200 in 5814.5814 ms
+2021-09-04 17:22:34.932 -04:00 [INF] Application Starting Up
+2021-09-04 17:22:35.201 -04:00 [FTL] The application failed to start.
+System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.Uri..ctor(String uriString)
+   at ReviewApp.WebApp.Program.<>c.<CreateHostBuilder>b__1_0(HostBuilderContext context, IConfigurationBuilder config) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Program.cs:line 56
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at ReviewApp.WebApp.Program.Main(String[] args) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Program.cs:line 36
+2021-09-04 17:23:15.893 -04:00 [INF] Application Starting Up
+2021-09-04 17:23:18.289 -04:00 [INF] HTTP GET / responded 200 in 441.9025 ms
+2021-09-04 17:23:30.893 -04:00 [INF] HTTP GET /Restaurant responded 200 in 1889.8157 ms
+2021-09-04 17:23:36.516 -04:00 [INF] HTTP GET /Restaurant/Details/1 responded 200 in 1039.4253 ms
+2021-09-04 17:23:38.143 -04:00 [INF] HTTP GET /Restaurant/LeaveReviews responded 302 in 11.2519 ms
+2021-09-04 17:23:38.155 -04:00 [INF] HTTP GET /denied?ReturnUrl=%2FRestaurant%2FLeaveReviews responded 200 in 6.9037 ms
+2021-09-04 17:23:49.791 -04:00 [INF] HTTP GET /User/LogOut responded 302 in 23.5387 ms
+2021-09-04 17:23:49.801 -04:00 [INF] HTTP GET / responded 200 in 4.2655 ms
+2021-09-04 17:23:51.361 -04:00 [INF] HTTP GET /login responded 200 in 42.2532 ms
+2021-09-04 17:23:56.733 -04:00 [INF] HTTP POST /login?ReturnUrl= responded 302 in 110.7825 ms
+2021-09-04 17:23:56.746 -04:00 [INF] HTTP GET /User responded 200 in 6.7412 ms
+2021-09-04 17:23:58.908 -04:00 [INF] HTTP GET /Restaurant responded 200 in 66.7158 ms
+2021-09-04 17:27:26.478 -04:00 [INF] Application Starting Up
+2021-09-04 17:27:28.397 -04:00 [INF] HTTP GET / responded 200 in 552.7046 ms
+2021-09-04 17:27:34.319 -04:00 [INF] HTTP GET /Restaurant responded 200 in 1934.9891 ms
+2021-09-04 17:27:36.813 -04:00 [INF] HTTP GET /Restaurant/Details/1 responded 200 in 845.4471 ms
+2021-09-04 17:27:37.777 -04:00 [INF] Admin get access to the page
+2021-09-04 17:27:37.827 -04:00 [INF] HTTP GET /Restaurant/LeaveReviews responded 200 in 63.4660 ms
+2021-09-04 17:27:59.852 -04:00 [ERR] This exception from Leave Review
+System.Exception: To leave Review, customerId cannot be 0
+   at ReviewApp.WebApp.Controllers.RestaurantController.LeaveReviews(Review review) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\RestaurantController.cs:line 146
+2021-09-04 17:27:59.909 -04:00 [INF] HTTP POST /Restaurant/LeaveReviews responded 200 in 226.8009 ms
+2021-09-04 17:28:03.904 -04:00 [INF] HTTP GET /User/LogOut responded 302 in 27.4646 ms
+2021-09-04 17:28:03.914 -04:00 [INF] HTTP GET / responded 200 in 4.3559 ms
+2021-09-04 17:28:04.948 -04:00 [INF] HTTP GET /login responded 200 in 30.9639 ms
+2021-09-04 17:28:13.138 -04:00 [INF] HTTP POST /login?ReturnUrl= responded 302 in 101.6095 ms
+2021-09-04 17:28:13.151 -04:00 [INF] HTTP GET /User responded 200 in 7.3289 ms
+2021-09-04 17:28:19.202 -04:00 [INF] HTTP GET /Restaurant responded 200 in 63.9989 ms
+2021-09-04 17:28:20.773 -04:00 [INF] HTTP GET /Restaurant/Details/1 responded 200 in 441.2428 ms
+2021-09-04 17:28:23.868 -04:00 [INF] Admin get access to the page
+2021-09-04 17:28:23.872 -04:00 [INF] HTTP GET /Restaurant/LeaveReviews responded 200 in 4.8643 ms
+2021-09-04 18:58:52.431 -04:00 [INF] Application Starting Up
+2021-09-04 18:58:58.356 -04:00 [INF] HTTP GET / responded 200 in 1646.9782 ms
+2021-09-04 18:59:27.689 -04:00 [INF] HTTP GET /User/LogOut responded 302 in 68.5495 ms
+2021-09-04 18:59:27.710 -04:00 [INF] HTTP GET / responded 200 in 13.0286 ms
+2021-09-04 18:59:29.492 -04:00 [INF] HTTP GET /login responded 200 in 64.0395 ms
+2021-09-04 18:59:38.209 -04:00 [INF] HTTP POST /login?ReturnUrl= responded 302 in 3178.2483 ms
+2021-09-04 18:59:38.233 -04:00 [INF] HTTP GET /User responded 200 in 10.2983 ms
+2021-09-04 18:59:41.622 -04:00 [INF] HTTP GET /Restaurant responded 200 in 249.0408 ms
+2021-09-04 19:00:46.168 -04:00 [INF] HTTP GET /Restaurant/Details/1 responded 200 in 757.6942 ms
+2021-09-04 19:01:06.127 -04:00 [INF] Admin get access to the page
+2021-09-04 19:01:06.178 -04:00 [INF] HTTP GET /Restaurant/LeaveReviews responded 200 in 60.9487 ms
+2021-09-04 19:01:17.855 -04:00 [INF] HTTP POST /Restaurant/LeaveReviews responded 302 in 892.9048 ms
+2021-09-04 19:01:17.971 -04:00 [INF] HTTP GET /Restaurant/Review/35 responded 200 in 85.1505 ms
+2021-09-04 20:32:42.422 -04:00 [INF] Application Starting Up
+2021-09-04 20:32:46.071 -04:00 [INF] HTTP GET / responded 200 in 592.9712 ms
+2021-09-04 20:32:52.990 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2197.4358 ms
+2021-09-04 20:40:16.183 -04:00 [INF] Application Starting Up
+2021-09-04 20:40:17.265 -04:00 [INF] HTTP GET / responded 200 in 430.9143 ms
+2021-09-04 20:40:23.692 -04:00 [INF] HTTP GET /Restaurant responded 200 in 1835.6741 ms
+2021-09-04 20:40:27.388 -04:00 [ERR] HTTP GET /Restaurant/Delete/1 responded 500 in 605.6295 ms
+System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at ReviewApp.DataAccess.ReviewRepo.DeleteReviewJoin(Int32 id) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\ReviewRepo.cs:line 139
+   at ReviewApp.WebApp.Controllers.RestaurantController.Delete(Int32 id) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\RestaurantController.cs:line 177
+   at lambda_method49(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2021-09-04 20:40:27.590 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at ReviewApp.DataAccess.ReviewRepo.DeleteReviewJoin(Int32 id) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\ReviewRepo.cs:line 139
+   at ReviewApp.WebApp.Controllers.RestaurantController.Delete(Int32 id) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\RestaurantController.cs:line 177
+   at lambda_method49(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-04 20:46:58.816 -04:00 [INF] Application Starting Up
+2021-09-04 20:47:03.278 -04:00 [INF] Application Starting Up
+2021-09-04 20:47:06.795 -04:00 [INF] HTTP GET / responded 200 in 830.5301 ms
+2021-09-04 21:42:12.264 -04:00 [INF] Application Starting Up
+2021-09-04 21:42:15.194 -04:00 [INF] HTTP GET / responded 200 in 573.5645 ms
+2021-09-04 21:42:20.495 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2222.4457 ms
+2021-09-04 21:42:29.431 -04:00 [ERR] Failed executing DbCommand (65ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Review]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2021-09-04 21:42:29.572 -04:00 [ERR] An exception occurred in the database while saving changes for context type 'ReviewApp.DataAccess.Entities.ReviewDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK__ReviewJoi__Revie__628FA481". The conflict occurred in database "ReviewDb", table "dbo.ReviewJoin", column 'ReviewId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:31123579-8c1f-494b-b78b-9365a349fb77
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK__ReviewJoi__Revie__628FA481". The conflict occurred in database "ReviewDb", table "dbo.ReviewJoin", column 'ReviewId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:31123579-8c1f-494b-b78b-9365a349fb77
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2021-09-04 21:47:45.007 -04:00 [INF] Application Starting Up
+2021-09-04 21:47:46.881 -04:00 [INF] HTTP GET / responded 200 in 442.0714 ms
+2021-09-04 21:48:16.034 -04:00 [INF] HTTP GET /User/LogOut responded 302 in 47.2024 ms
+2021-09-04 21:48:16.049 -04:00 [INF] HTTP GET / responded 200 in 10.2215 ms
+2021-09-04 21:48:18.316 -04:00 [INF] HTTP GET /login responded 200 in 69.9219 ms
+2021-09-04 21:48:25.357 -04:00 [INF] HTTP POST /login?ReturnUrl= responded 302 in 2012.8689 ms
+2021-09-04 21:48:25.368 -04:00 [INF] HTTP GET /User responded 200 in 5.3682 ms
+2021-09-04 21:48:29.516 -04:00 [INF] HTTP GET /Restaurant responded 200 in 158.4076 ms
+2021-09-04 21:59:46.100 -04:00 [INF] Application Starting Up
+2021-09-04 21:59:47.422 -04:00 [INF] HTTP GET / responded 200 in 596.0179 ms
+2021-09-04 21:59:51.812 -04:00 [INF] HTTP GET /Restaurant responded 200 in 1651.6650 ms
+2021-09-04 21:59:54.513 -04:00 [INF] HTTP GET /Restaurant/Details/1 responded 200 in 829.8156 ms
+2021-09-04 21:59:56.269 -04:00 [INF] HTTP GET /Restaurant responded 200 in 76.9712 ms
+2021-09-04 21:59:58.100 -04:00 [ERR] HTTP GET /Restaurant/Delete/1 responded 500 in 276.1485 ms
+System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at ReviewApp.DataAccess.ReviewRepo.DeleteReviewJoin(Int32 id) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\ReviewRepo.cs:line 139
+   at ReviewApp.WebApp.Controllers.RestaurantController.Delete(Int32 id) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\RestaurantController.cs:line 177
+   at lambda_method139(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2021-09-04 21:59:58.165 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at ReviewApp.DataAccess.ReviewRepo.DeleteReviewJoin(Int32 id) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\ReviewRepo.cs:line 139
+   at ReviewApp.WebApp.Controllers.RestaurantController.Delete(Int32 id) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\RestaurantController.cs:line 177
+   at lambda_method139(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-04 22:04:16.649 -04:00 [INF] Application Starting Up
+2021-09-04 22:04:22.881 -04:00 [INF] Application Starting Up
+2021-09-04 22:04:24.873 -04:00 [INF] HTTP GET / responded 200 in 465.8076 ms
+2021-09-04 22:04:29.725 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2083.2760 ms
+2021-09-04 22:15:23.793 -04:00 [INF] Application Starting Up
+2021-09-04 22:15:25.625 -04:00 [INF] HTTP GET / responded 200 in 446.5693 ms
+2021-09-04 22:15:40.722 -04:00 [INF] HTTP GET /Restaurant responded 200 in 1954.4004 ms
+2021-09-04 22:25:26.201 -04:00 [INF] Application Starting Up
+2021-09-04 22:25:27.049 -04:00 [INF] HTTP GET / responded 200 in 321.0893 ms
+2021-09-04 22:25:34.530 -04:00 [INF] HTTP GET /Restaurant responded 200 in 1637.6540 ms
+2021-09-04 22:25:36.368 -04:00 [ERR] HTTP GET /Restaurant/Delete/1 responded 500 in 570.8536 ms
+System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at ReviewApp.DataAccess.ReviewRepo.DeleteReviewJoin(Int32 id) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\ReviewRepo.cs:line 139
+   at ReviewApp.WebApp.Controllers.RestaurantController.Delete(Int32 id) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\RestaurantController.cs:line 177
+   at lambda_method49(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2021-09-04 22:25:36.463 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at ReviewApp.DataAccess.ReviewRepo.DeleteReviewJoin(Int32 id) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\ReviewRepo.cs:line 139
+   at ReviewApp.WebApp.Controllers.RestaurantController.Delete(Int32 id) in D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\Controllers\RestaurantController.cs:line 177
+   at lambda_method49(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-04 22:27:15.200 -04:00 [INF] Application Starting Up
+2021-09-04 22:27:16.260 -04:00 [INF] HTTP GET /Restaurant/Delete/1 responded 200 in 321.2406 ms
+2021-09-04 22:27:26.798 -04:00 [INF] Application Starting Up
+2021-09-04 22:27:28.627 -04:00 [INF] HTTP GET / responded 200 in 485.3082 ms
+2021-09-04 22:27:33.813 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2395.8243 ms
+2021-09-04 22:27:36.523 -04:00 [INF] HTTP GET /Restaurant/Delete/1 responded 200 in 46.7240 ms
+2021-09-04 22:32:24.160 -04:00 [INF] Application Starting Up
+2021-09-04 22:32:26.026 -04:00 [INF] HTTP GET / responded 200 in 434.3602 ms
+2021-09-04 22:32:31.235 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2148.3746 ms
+2021-09-04 22:41:04.952 -04:00 [INF] Application Starting Up
+2021-09-04 22:41:06.508 -04:00 [INF] HTTP GET / responded 200 in 419.7922 ms
+2021-09-04 22:41:10.886 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2105.9225 ms
+2021-09-04 22:41:13.076 -04:00 [INF] HTTP GET /Restaurant/Delete/1 responded 200 in 743.0496 ms
+2021-09-04 22:41:20.501 -04:00 [INF] HTTP POST /Restaurant responded 200 in 86.1240 ms
+2021-09-04 22:43:49.463 -04:00 [INF] Application Starting Up
+2021-09-04 22:43:51.420 -04:00 [INF] HTTP GET / responded 200 in 486.6119 ms
+2021-09-04 22:43:56.140 -04:00 [INF] HTTP GET /Restaurant responded 200 in 1997.5663 ms
+2021-09-04 22:48:55.219 -04:00 [INF] Application Starting Up
+2021-09-04 22:48:57.081 -04:00 [INF] HTTP GET / responded 200 in 411.4472 ms
+2021-09-04 22:49:01.929 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2017.8287 ms
+2021-09-04 22:53:31.697 -04:00 [INF] Application Starting Up
+2021-09-04 22:53:33.568 -04:00 [INF] HTTP GET / responded 200 in 441.7068 ms
+2021-09-04 22:53:40.810 -04:00 [INF] HTTP GET /Restaurant responded 200 in 1936.9838 ms
+2021-09-04 22:54:18.365 -04:00 [INF] Application Starting Up
+2021-09-04 22:54:20.718 -04:00 [INF] HTTP GET / responded 200 in 555.0609 ms
+2021-09-04 22:54:24.825 -04:00 [INF] HTTP GET /Restaurant responded 200 in 1894.0494 ms
+2021-09-04 22:54:28.226 -04:00 [INF] HTTP GET /Restaurant/Details/1 responded 200 in 801.2833 ms
+2021-09-04 22:54:30.155 -04:00 [INF] HTTP GET /Restaurant responded 200 in 80.6320 ms
+2021-09-04 22:59:08.106 -04:00 [INF] Application Starting Up
+2021-09-04 22:59:10.391 -04:00 [INF] HTTP GET / responded 200 in 460.2350 ms
+2021-09-04 22:59:18.478 -04:00 [INF] HTTP GET /Restaurant responded 200 in 1950.8858 ms
+2021-09-04 23:26:01.437 -04:00 [INF] Application Starting Up
+2021-09-04 23:26:04.180 -04:00 [INF] HTTP GET / responded 200 in 584.7330 ms
+2021-09-04 23:26:09.653 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2533.2349 ms
+2021-09-04 23:30:13.100 -04:00 [INF] Application Starting Up
+2021-09-04 23:30:15.276 -04:00 [INF] HTTP GET / responded 200 in 501.8242 ms
+2021-09-04 23:30:26.064 -04:00 [INF] HTTP GET /Restaurant responded 200 in 5334.9371 ms
+2021-09-04 23:32:24.579 -04:00 [INF] Application Starting Up
+2021-09-04 23:32:26.250 -04:00 [INF] HTTP GET / responded 200 in 457.9522 ms
+2021-09-04 23:32:35.172 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2196.3962 ms
+2021-09-04 23:32:38.625 -04:00 [INF] HTTP GET /Restaurant/Delete/1 responded 200 in 2244.9385 ms
+2021-09-04 23:32:42.775 -04:00 [INF] HTTP POST /Restaurant responded 200 in 94.5074 ms
+2021-09-04 23:45:41.753 -04:00 [INF] Application Starting Up
+2021-09-04 23:45:43.022 -04:00 [INF] HTTP GET / responded 200 in 485.3161 ms
+2021-09-04 23:45:54.330 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2212.4494 ms
+2021-09-04 23:45:57.879 -04:00 [INF] HTTP GET /User/LogOut responded 302 in 29.4543 ms
+2021-09-04 23:45:57.890 -04:00 [INF] HTTP GET / responded 200 in 4.5358 ms
+2021-09-04 23:45:59.674 -04:00 [INF] HTTP GET /login responded 200 in 54.0327 ms
+2021-09-04 23:46:04.150 -04:00 [INF] HTTP POST /login?ReturnUrl= responded 302 in 276.3664 ms
+2021-09-04 23:46:04.161 -04:00 [INF] HTTP GET /User responded 200 in 4.6114 ms
+2021-09-04 23:46:06.788 -04:00 [INF] HTTP GET /Restaurant responded 200 in 105.1551 ms
+2021-09-04 23:46:07.810 -04:00 [INF] HTTP GET /Restaurant/Delete/2 responded 302 in 5.7076 ms
+2021-09-04 23:46:07.821 -04:00 [INF] HTTP GET /denied?ReturnUrl=%2FRestaurant%2FDelete%2F2 responded 200 in 4.2483 ms
+2021-09-04 23:46:11.408 -04:00 [INF] HTTP GET /Restaurant responded 200 in 77.4109 ms
+2021-09-04 23:47:13.227 -04:00 [INF] Application Starting Up
+2021-09-04 23:47:16.427 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2308.1414 ms
+2021-09-04 23:47:43.183 -04:00 [INF] HTTP GET /Restaurant responded 200 in 118.4959 ms
+2021-09-04 23:49:47.778 -04:00 [INF] Application Starting Up
+2021-09-04 23:49:51.682 -04:00 [INF] HTTP GET /Restaurant responded 200 in 2554.4018 ms
+2021-09-04 23:52:47.485 -04:00 [INF] HTTP GET /Restaurant/Details/2 responded 200 in 770.9578 ms

@@ -1,13 +1,22 @@
 ﻿@model IEnumerable<ReviewApp.Domain.Restaurant>
+@using System.Security.Claims;
 
 @{
     ViewData["Title"] = "View";
 }
+<style>
 
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+</style>
 <h1>Restaurants</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="CreateARestaurant">Create New</a>
 </p>
 
 <form asp-controller="Restaurant" asp-action="ShowSearchResults">
@@ -17,12 +26,10 @@
     </p>
 </form>
 
-<table class="table">
+<table style="display: table; width: 100%; margin-bottom: 1rem; color: #c4cdd6; border-color: white; border-spacing: 2px; text-indent: initial; border-collapse: collapse; border-bottom: 1px solid #ddd; ">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Id)
-            </th>
+
             <th>
                 @Html.DisplayNameFor(model => model.Name)
             </th>
@@ -35,33 +42,37 @@
             <th>
                 @Html.DisplayNameFor(model => model.Zipcode)
             </th>
+
+
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Id)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Location)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Contact)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Zipcode)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Location)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Contact)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Zipcode)
+                </td>
+
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    @if (User.Identity.IsAuthenticated)
+                    {@Html.ActionLink("Edit", "Edit", new { id = item.Id }) @Html.DisplayName(" | ")
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })}
+                </td>
+            </tr>
+        }
     </tbody>
+
 </table>

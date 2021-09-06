@@ -8,6 +8,7 @@ using ReviewApp.DataAccess;
 using ReviewApp.DataAccess.Entities;
 using ReviewApp.Domain;
 
+
 namespace ReviewApp.DataAccess
 {
     public class ReviewRepo : IReviewRepo
@@ -45,11 +46,21 @@ namespace ReviewApp.DataAccess
                 .FirstOrDefault(restaurant => restaurant.Name == name);
             if (foundRestaurant != null)
             {
-                return new ReviewApp.Domain.Restaurant(foundRestaurant.Id, foundRestaurant.Name, foundRestaurant.Location, foundRestaurant.Zipcode, foundRestaurant.Contact);
+                return new ReviewApp.Domain.Restaurant(foundRestaurant.Id, foundRestaurant.Name, foundRestaurant.Location, foundRestaurant.Contact, foundRestaurant.Zipcode);
             }
             return new ReviewApp.Domain.Restaurant();
         }
 
+        public ReviewApp.Domain.Restaurant FindARestaurant(int id)
+        {
+            Entities.Restaurant foundRestaurant = _context.Restaurants
+                .FirstOrDefault(restaurant => restaurant.Id == id);
+            if (foundRestaurant != null)
+            {
+                return new ReviewApp.Domain.Restaurant(foundRestaurant.Id, foundRestaurant.Name, foundRestaurant.Location, foundRestaurant.Contact, foundRestaurant.Zipcode);
+            }
+            return new ReviewApp.Domain.Restaurant();
+        }
         public ReviewApp.Domain.Restaurant FindARestaurantByZipcode(string zipcode)
         {
             Entities.Restaurant foundRestaurant = _context.Restaurants
@@ -74,6 +85,12 @@ namespace ReviewApp.DataAccess
         }
         public ReviewApp.Domain.Customer AddAUser(ReviewApp.Domain.Customer customer)
         {
+
+            if (_context.Customers.Any(c => c.UserName == customer.UserName))
+            {
+                throw new InvalidOperationException("This username has been already used");
+            }
+            
             _context.Customers.Add(
                 new Entities.Customer
                 {
@@ -87,7 +104,26 @@ namespace ReviewApp.DataAccess
             _context.SaveChanges();
             return customer;
         }
-        public ReviewApp.Domain.Customer SearchUsersByUserName(string userName)
+
+        public ReviewApp.Domain.Restaurant AddARestaurant(ReviewApp.Domain.Restaurant restaurant)
+        {
+            if (_context.Restaurants.Any(r => r.Location == restaurant.Location))
+            {
+                throw new Exception("This location has been already added");
+            }
+            _context.Restaurants.Add(
+                new Entities.Restaurant
+                {
+                    Name = restaurant.Name,
+                    Location = restaurant.Location,
+                    Contact = restaurant.Contact,
+                    Zipcode = restaurant.Zipcode
+                }
+            );
+            _context.SaveChanges();
+            return restaurant;
+        }
+            public ReviewApp.Domain.Customer SearchUsersByUserName(string userName)
         {
             Entities.Customer foundCustomer = _context.Customers
                 .FirstOrDefault(customer => customer.UserName == userName);
@@ -97,5 +133,86 @@ namespace ReviewApp.DataAccess
             }
             return new ReviewApp.Domain.Customer();
         }
+        public ReviewApp.Domain.Customer SearchUsersById(int id)
+        {
+            Entities.Customer foundCustomer = _context.Customers
+                .FirstOrDefault(customer => customer.Id == id);
+            if (foundCustomer != null)
+            {
+                return new ReviewApp.Domain.Customer(foundCustomer.Id, foundCustomer.FirstName, foundCustomer.LastName, foundCustomer.UserName, foundCustomer.Email, foundCustomer.Password);
+            }
+            return new ReviewApp.Domain.Customer();
+        }
+        public void Update(string email, int id)
+        {
+            // query the DB
+            var customer = _context.Customers.First(customer => customer.Id == id);
+
+            customer.Email = email;
+
+            // write changes to DB
+            _context.SaveChanges();
+        }
+        public void DeleteUser(int id)
+        {
+            Entities.Customer foundCustomer = _context.Customers
+                .FirstOrDefault(customer => customer.Id == id);
+            _context.Customers.Remove(foundCustomer);
+            _context.SaveChanges();
+        }
+        public List<ReviewApp.Domain.ReviewJoin> GetReviewJoins()
+        {
+            return _context.ReviewJoins.Select(
+                reviewjoin => new ReviewApp.Domain.ReviewJoin(reviewjoin.Id, reviewjoin.RestaurantId, reviewjoin.CustomerId, reviewjoin.ReviewId)
+            ).ToList();
+        }
+        public ReviewApp.Domain.Review SearchReviewByReviewId(int id)
+        {
+            Entities.Review foundReview = _context.Reviews
+                .FirstOrDefault(review => review.Id == id);
+            if (foundReview != null)
+            {
+                return new ReviewApp.Domain.Review(foundReview.Id, foundReview.Comment, (decimal)foundReview.Rating, foundReview.Time);
+            }
+            return new ReviewApp.Domain.Review();
+        }
+        public ReviewApp.Domain.ReviewJoin AddAReviewJoin(ReviewApp.Domain.ReviewJoin reviewjoin)
+        {
+            _context.ReviewJoins.Add(
+                new Entities.ReviewJoin
+                {
+                    RestaurantId = reviewjoin.RestaurantId,
+                    CustomerId = reviewjoin.CustomerId,
+                    ReviewId = reviewjoin.ReviewId
+                }
+            );
+            _context.SaveChanges();
+            return reviewjoin;
+        }
+        public void DeleteReviewJoin(int id)
+        {
+             Entities.ReviewJoin foundReviewJoin = _context.ReviewJoins
+                .FirstOrDefault(reviewjoin => reviewjoin.Id == id);
+            _context.ReviewJoins.Remove(foundReviewJoin);
+            _context.SaveChanges();
+        }
+        public void DeleteReview(int id)
+        {
+            Entities.Review foundReview = _context.Reviews
+                .FirstOrDefault(review => review.Id == id);
+            _context.Reviews.Remove(foundReview);
+            _context.SaveChanges();
+        }
+        public void DeleteRestaurant(int id)
+        {
+            
+            Entities.Restaurant foundRestaurant = _context.Restaurants
+                .FirstOrDefault(restaurant => restaurant.Id == id);
+            _context.Restaurants.Remove(foundRestaurant);
+            _context.SaveChanges();
+        }
+        
+
+
     }
 }

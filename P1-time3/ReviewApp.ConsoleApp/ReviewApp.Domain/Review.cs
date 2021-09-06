@@ -4,6 +4,7 @@ namespace ReviewApp.Domain
 {
     public class Review
     {
+        public Review() { }
         public Review(int id, string comment, decimal rating, DateTime time)
         {
             this.Id = id;

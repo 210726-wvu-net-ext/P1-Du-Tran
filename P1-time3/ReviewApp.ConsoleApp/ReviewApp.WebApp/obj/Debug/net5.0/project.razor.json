@@ -15619,8 +15619,43 @@
   "RootNamespace": "ReviewApp.WebApp",
   "Documents": [
     {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\Shared\\ErrorMessage.cshtml",
+      "TargetPath": "Views\\Shared\\ErrorMessage.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\User\\Result.cshtml",
+      "TargetPath": "Views\\User\\Result.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\Restaurant\\Review.cshtml",
+      "TargetPath": "Views\\Restaurant\\Review.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\Restaurant\\Details.cshtml",
+      "TargetPath": "Views\\Restaurant\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\Restaurant\\LeaveReviews.cshtml",
+      "TargetPath": "Views\\Restaurant\\LeaveReviews.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\User\\Delete.cshtml",
+      "TargetPath": "Views\\User\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15629,8 +15664,43 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\Restaurant\\Denied.cshtml",
+      "TargetPath": "Views\\Restaurant\\Denied.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\Restaurant\\Delete.cshtml",
+      "TargetPath": "Views\\Restaurant\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\User\\ConfirmPage.cshtml",
+      "TargetPath": "Views\\User\\ConfirmPage.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\User\\Index.cshtml",
+      "TargetPath": "Views\\User\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\Restaurant\\SearchForARestaurantForm.cshtml",
+      "TargetPath": "Views\\Restaurant\\SearchForARestaurantForm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\User\\CreateAnAccount.cshtml",
+      "TargetPath": "Views\\User\\CreateAnAccount.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\User\\Denied.cshtml",
+      "TargetPath": "Views\\User\\Denied.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15644,6 +15714,26 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\User\\UpdateEmail.cshtml",
+      "TargetPath": "Views\\User\\UpdateEmail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\Restaurant\\Details2.cshtml",
+      "TargetPath": "Views\\Restaurant\\Details2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\Restaurant\\CreateARestaurant.cshtml",
+      "TargetPath": "Views\\Restaurant\\CreateARestaurant.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\User\\LogIn.cshtml",
+      "TargetPath": "Views\\User\\LogIn.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15651,6 +15741,16 @@
     {
       "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\User\\Details.cshtml",
+      "TargetPath": "Views\\User\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\Views\\Restaurant\\Index.cshtml",
+      "TargetPath": "Views\\Restaurant\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
