@@ -23,6 +23,7 @@ stages:
     - task: DotNetCoreCLI@2
       inputs:
         command: 'build'
+        projects: 'P1-time3/ReviewApp.ConsoleApp'
    
 
     
