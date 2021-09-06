@@ -21,11 +21,11 @@ stages:
 
     steps:
     - script: dotnet build
-      workingDirectory: P1-time3/ReviewApp.ConspoleApp/ReviewApp.ConsoleApp.sln
+      workingDirectory: P1-time3/ReviewApp.ConsoleApp.sln
     - task: DotNetCoreCLI@2
       inputs:
         command: 'build'
-        projects: 'P1-time3/ReviewApp.ConspoleApp/ReviewApp.ConsoleApp.sln'
+        projects: 'P1-time3/ReviewApp.ConsoleApp.sln'
    
 
     
