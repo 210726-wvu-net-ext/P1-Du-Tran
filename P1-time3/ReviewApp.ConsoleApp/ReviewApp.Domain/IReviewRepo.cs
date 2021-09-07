@@ -32,6 +32,7 @@ namespace ReviewApp.Domain
             void DeleteUser(int id);
 
             void Update(string email, int id);
+            void UpdateRestaurant(string otherLocation, string otherContact, int id);
     }
         
 }

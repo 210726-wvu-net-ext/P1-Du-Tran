@@ -187,3 +187,7 @@ D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Release\net5.0
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Release\net5.0\Razor\Views\User\Delete.cshtml.g.cs
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Release\net5.0\Razor\Views\User\Result.cshtml.g.cs
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Release\net5.0\Razor\Views\User\UpdateEmail.cshtml.g.cs
+D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Release\net5.0\Razor\Views\Home\SearchResults.cshtml.g.cs
+D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Release\net5.0\Razor\Views\Restaurant\ConfirmPage.cshtml.g.cs
+D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Release\net5.0\Razor\Views\Restaurant\DeleteReview.cshtml.g.cs
+D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Release\net5.0\Razor\Views\Restaurant\UpdateRestaurant.cshtml.g.cs

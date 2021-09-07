@@ -26,7 +26,7 @@ th, td {
     </p>
 </form>
 
-<table style="display: table; width: 100%; margin-bottom: 1rem; color: #c4cdd6; border-color: white; border-spacing: 2px; text-indent: initial; border-collapse: collapse; border-bottom: 1px solid #ddd; ">
+<table class="table">
     <thead>
         <tr>
 
@@ -68,7 +68,7 @@ th, td {
                 <td>
                     <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                     @if (User.Identity.IsAuthenticated)
-                    {@Html.ActionLink("Edit", "Edit", new { id = item.Id }) @Html.DisplayName(" | ")
+                    {@Html.ActionLink("Edit", "UpdateRestaurant", new { id = item.Id }) @Html.DisplayName(" | ")
                     @Html.ActionLink("Delete", "Delete", new { id = item.Id })}
                 </td>
             </tr>

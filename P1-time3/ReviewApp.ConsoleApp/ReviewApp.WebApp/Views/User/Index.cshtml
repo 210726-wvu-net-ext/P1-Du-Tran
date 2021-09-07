@@ -3,13 +3,19 @@
 @{
     ViewData["Title"] = "Users";
 }
-
+<style>
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+</style>
 <h1>All Users' Information</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="CreateAnAccount">Create New</a>
 </p>
-<table class="table">
+<table class="table" style="color: #c4cdd6;">
     <thead>
         <tr>
             <th>

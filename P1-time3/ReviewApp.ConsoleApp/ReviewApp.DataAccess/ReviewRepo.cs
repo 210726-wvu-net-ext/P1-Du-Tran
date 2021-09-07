@@ -143,12 +143,21 @@ namespace ReviewApp.DataAccess
             }
             return new ReviewApp.Domain.Customer();
         }
-        public void Update(string email, int id)
+        public void Update(string otherEmail, int id)
         {
             // query the DB
             var customer = _context.Customers.First(customer => customer.Id == id);
 
-            customer.Email = email;
+            customer.Email = otherEmail;
+
+            // write changes to DB
+            _context.SaveChanges();
+        }
+        public void UpdateRestaurant(string otherLocation, string otherContact, int id)
+        {
+            var restaurant = _context.Restaurants.First(restaurant => restaurant.Id == id);
+            restaurant.Location = otherLocation;
+            restaurant.Contact = otherContact;
 
             // write changes to DB
             _context.SaveChanges();

@@ -53,27 +53,22 @@ namespace ReviewApp.WebApp.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult CreateAnAccount(ReviewApp.Domain.Customer customer)
         {
-            //validation check
-            //if(!ModelState.IsValid)
-            //{
-            //    return View();
-            //}
-
-            List<ReviewApp.Domain.Customer> customers = _repo.GetAllCustomers();
-
+         
             //get the id of the customer who has just been added to return the details page
-            int id = customers[customers.Count - 1].Id;
             try
             {
                 _repo.AddAUser(customer);
             }
             catch( InvalidOperationException e)
             {
+                
                 ModelState.AddModelError("Email", e.Message);
                 ModelState.AddModelError("Username", e.Message);
+                _logger.LogError("Annotation Validation Error");
                 return View();
             }
-           
+            List<ReviewApp.Domain.Customer> customers = _repo.GetAllCustomers();
+            int id = customers[customers.Count - 1].Id;
             return RedirectToAction("Details", new { id });
         }
 
@@ -127,6 +122,13 @@ namespace ReviewApp.WebApp.Controllers
             return View();
         }
 
+        //Confirm page
+        [HttpGet]
+        public IActionResult ConfirmPage()
+        {
+            return View();
+        }
+
         //Delete users
         [Authorize(Roles = "Admin")]
         [HttpGet]
@@ -135,7 +137,7 @@ namespace ReviewApp.WebApp.Controllers
             _logger.LogInformation("Admin get access to the page");
 
             var customer = _repo.GetAllCustomers().First(x => x.Id == id);
-            return View();
+            return View(customer);
         }
         [HttpPost]
         public IActionResult Delete(int id, IFormCollection collection)
@@ -151,7 +153,7 @@ namespace ReviewApp.WebApp.Controllers
                 }
             }
             _repo.DeleteUser(id);
-            return View();
+            return RedirectToAction("ConfirmPage");
         }
 
         //Update users' email
@@ -164,7 +166,6 @@ namespace ReviewApp.WebApp.Controllers
         [HttpPost]
         public IActionResult UpdateEmail(string email, int id)
         {
-            ReviewApp.Domain.Customer foundCustomer = _repo.SearchUsersById(id);
             _repo.Update(email, id);
             return View();
         }

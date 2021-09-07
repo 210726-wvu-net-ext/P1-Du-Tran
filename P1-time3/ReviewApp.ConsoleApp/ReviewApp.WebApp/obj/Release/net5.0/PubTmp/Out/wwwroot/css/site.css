@@ -62,11 +62,10 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-    background-color: rgba(41, 24, 24, 0.9);
-    opacity: 0.8;
+  
+    color: black;
+    background-image: linear-gradient(to right bottom, lightblue, #b7e43b8f), url(food.jpg);
     background-size: cover;
-    color: #e59ff2;
-
 }
 
 .footer {

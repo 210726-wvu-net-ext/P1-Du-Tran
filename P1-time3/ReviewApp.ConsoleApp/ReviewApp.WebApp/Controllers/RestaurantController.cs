@@ -9,7 +9,7 @@ using ReviewApp.DataAccess;
 using ReviewApp.DataAccess.Entities;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
-
+using Microsoft.AspNetCore.Http;
 
 namespace ReviewApp.WebApp.Controllers
 {
@@ -33,12 +33,6 @@ namespace ReviewApp.WebApp.Controllers
         }
 
         
-        // Create a new restaurant
-        //public IActionResult Details(int id)
-        //{
-        //
-        //    return View(_repo.GetAllRestaurants().First(x => x.Id == id));
-        //}
         [HttpGet]
         [Authorize(Roles ="Admin")]
         public IActionResult CreateARestaurant()
@@ -49,11 +43,6 @@ namespace ReviewApp.WebApp.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult CreateARestaurant(ReviewApp.Domain.Restaurant restaurant)
         {
-            //validation check
-            //if(!ModelState.IsValid)
-            //{
-            //    return View();
-            //}
             try
             {
                 _repo.AddARestaurant(restaurant);
@@ -105,7 +94,11 @@ namespace ReviewApp.WebApp.Controllers
             List<ReviewApp.Domain.ReviewJoin> reviewjoins = _repo.GetReviewJoins();
             var restaurant = _repo.GetAllRestaurants().First(x => x.Id == id);
 
-            RestaurantController.restaurantid = restaurant.Id;
+            RestaurantController.restaurantid = restaurant.Id; //store this data in case the user leave a review for this restaurant
+
+            decimal averageRating = AverageRating(restaurant.Name);
+            TempData["averageRating"] = Convert.ToString(averageRating);
+            TempData["restaurant_name"] = restaurant.Name;
 
             //get all reviews belonging to the restaurant
             List<ReviewApp.Domain.Review> reviews = new List<ReviewApp.Domain.Review>();
@@ -124,8 +117,9 @@ namespace ReviewApp.WebApp.Controllers
         //Average rating
         public decimal AverageRating(string restaurantname)
         {
+            decimal averageRating;
             decimal sum = 0;
-            int n = 1;
+            int n = 0;
             var foundRestaurant = _repo.FindARestaurant(restaurantname);
             List<ReviewApp.Domain.ReviewJoin> reviewjoins = _repo.GetReviewJoins();
             for (int i = 0; i < reviewjoins.Count; i++)
@@ -137,7 +131,8 @@ namespace ReviewApp.WebApp.Controllers
                     n += 1;
                 }
             }
-            decimal averageRating = Math.Round(sum/n, 2);
+            if (n == 0) { averageRating = 0; }
+            else { averageRating = Math.Round(sum / n, 2); }
             return averageRating;
         }
 
@@ -192,19 +187,44 @@ namespace ReviewApp.WebApp.Controllers
             return RedirectToAction("Review", new { id });
         }
 
+        //Update information of restaurants
+        [HttpGet]
+        public IActionResult UpdateRestaurant(int id)
+        {
+            var customer = _repo.GetAllRestaurants().First(x => x.Id == id);
+            var restaurant = _repo.FindARestaurant(id);
+            TempData["R_name"] = restaurant.Name;
+            return View();
+        }
+        [HttpPost]
+        public IActionResult UpdateRestaurant(string otherLocation, string otherContact, int id)
+        {
+            
+            _repo.UpdateRestaurant(otherLocation, otherContact, id);
+            return View(); 
+        }
+
+
         // Delete a Restaurant
         [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult Delete(int id)
+        {
+            var restaurant = _repo.GetAllRestaurants().First(x => x.Id == id);
+            ReviewApp.Domain.Restaurant foundRestaurant = _repo.FindARestaurant(restaurant.Name);
+            return View(foundRestaurant);
+        }
+        [HttpPost]
+        public IActionResult Delete(int id, IFormCollection collection)
         {
             _logger.LogInformation("Admin get access to the page");
 
             var restaurant = _repo.GetAllRestaurants().First(x => x.Id == id);
             ReviewApp.Domain.Restaurant foundRestaurant = _repo.FindARestaurant(restaurant.Name);
             List<ReviewApp.Domain.ReviewJoin> reviewjoins = _repo.GetReviewJoins();
-            for(int i =0; i<reviewjoins.Count; i++)
+            for (int i = 0; i < reviewjoins.Count; i++)
             {
-                if (reviewjoins[i].RestaurantId==foundRestaurant.Id)
+                if (reviewjoins[i].RestaurantId == foundRestaurant.Id)
                 {
                     _repo.DeleteReviewJoin(reviewjoins[i].Id);
                     _repo.DeleteReview(reviewjoins[i].ReviewId);
@@ -214,6 +234,38 @@ namespace ReviewApp.WebApp.Controllers
             return View();
         }
 
+        //Delete Review
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public IActionResult DeleteReview(int id)
+        {
+            var review = _repo.GetReviews().First(x => x.Id == id);
+            ReviewApp.Domain.Review foundReview = _repo.SearchReviewByReviewId(review.Id);
+            return View(foundReview);
+        }
+        [HttpPost]
+        public IActionResult DeleteReview(int id, IFormCollection collection)
+        {
+            _logger.LogInformation("Admin get access to the delete review page");
 
+            //var restaurant = _repo.GetAllRestaurants().First(x => x.Id == id);
+            //ReviewApp.Domain.Restaurant foundRestaurant = _repo.FindARestaurant(restaurant.Name);
+            ReviewApp.Domain.Review foundReview = _repo.SearchReviewByReviewId(id);
+            List<ReviewApp.Domain.ReviewJoin> reviewjoins = _repo.GetReviewJoins();
+            for (int i = 0; i < reviewjoins.Count; i++)
+            {
+                if (reviewjoins[i].ReviewId == foundReview.Id)
+                {
+                    _repo.DeleteReviewJoin(reviewjoins[i].Id);   
+                }
+            }
+            _repo.DeleteReview(id);
+            return RedirectToAction("ConfirmPage");
+        }
+
+        public IActionResult ConfirmPage()
+        {
+            return View();
+        }
     }
 }

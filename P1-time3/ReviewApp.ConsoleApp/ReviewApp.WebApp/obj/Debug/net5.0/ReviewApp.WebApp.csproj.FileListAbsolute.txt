@@ -227,3 +227,7 @@ D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\R
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\Razor\Views\Restaurant\CreateARestaurant.cshtml.g.cs
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\bin\Debug\net5.0\ref\ReviewApp.WebApp.dll
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\staticwebassets\ReviewApp.WebApp.StaticWebAssets.xml
+D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\Razor\Views\Restaurant\UpdateRestaurant.cshtml.g.cs
+D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\Razor\Views\Restaurant\DeleteReview.cshtml.g.cs
+D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\Razor\Views\Restaurant\ConfirmPage.cshtml.g.cs
+D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\Razor\Views\Home\SearchResults.cshtml.g.cs

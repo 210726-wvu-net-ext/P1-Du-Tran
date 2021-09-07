@@ -27,6 +27,30 @@ namespace ReviewApp.WebApp.Controllers
             return View();
         }
 
+        //search for everything on the home page
+        public IActionResult SearchResults(string searchString)
+        {
+            if (searchString == null)
+            {
+                return NotFound();
+            }
+
+            var foundRestaurant = _repo.FindARestaurant(searchString);
+            //if (foundRestaurant == null)
+                
+            //add all found restaurants to List<>
+            List<ReviewApp.Domain.Restaurant> restaurants = new List<ReviewApp.Domain.Restaurant>();
+            
+            if (foundRestaurant != null)
+                ViewBag.restaurant = restaurants.Count;
+                TempData["error"] = "Sorry! Nothing to show based on your input :(";
+            
+            restaurants.Add(foundRestaurant);
+            return View(restaurants);
+        }
+
+
+        //privacy
         public IActionResult Privacy()
         {
             _logger.LogInformation("Privacy");
