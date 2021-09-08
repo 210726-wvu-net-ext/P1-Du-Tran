@@ -92,9 +92,9 @@ namespace ReviewApp.WebApp.Controllers
             if (username == user.UserName && password == user.Password)
             {
                 var claims = new List<Claim>();
-                claims.Add(new Claim("username", username));
+                //claims.Add(new Claim("name", user.LastName));
                 claims.Add(new Claim(ClaimTypes.NameIdentifier, username));
-                
+                ViewBag.user = claims;
                 var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
                 await HttpContext.SignInAsync(claimsPrincipal);
@@ -168,6 +168,12 @@ namespace ReviewApp.WebApp.Controllers
         {
             _repo.Update(email, id);
             return View();
+        }
+
+        public IActionResult MyAccount()
+        {
+            var customer = _repo.SearchUsersById(userid);
+            return View(customer);
         }
 
     }

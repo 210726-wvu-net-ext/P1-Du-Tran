@@ -187,7 +187,6 @@ D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\bin\Debug\net5.0\r
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\Razor\Views\Restaurant\Index.cshtml.g.cs
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\Razor\Views\Restaurant\SearchForARestaurantForm.cshtml.g.cs
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\Razor\Views\User\CreateAnAccount.cshtml.g.cs
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\Razor\Views\User\Details.cshtml.g.cs
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\bin\Debug\net5.0\Azure.Core.dll
@@ -231,3 +230,4 @@ D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\R
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\Razor\Views\Restaurant\DeleteReview.cshtml.g.cs
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\Razor\Views\Restaurant\ConfirmPage.cshtml.g.cs
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\Razor\Views\Home\SearchResults.cshtml.g.cs
+D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.WebApp\obj\Debug\net5.0\Razor\Views\User\MyAccount.cshtml.g.cs

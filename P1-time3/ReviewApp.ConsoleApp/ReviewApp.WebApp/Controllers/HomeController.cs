@@ -34,18 +34,23 @@ namespace ReviewApp.WebApp.Controllers
             {
                 return NotFound();
             }
-
-            var foundRestaurant = _repo.FindARestaurant(searchString);
-            //if (foundRestaurant == null)
-                
-            //add all found restaurants to List<>
             List<ReviewApp.Domain.Restaurant> restaurants = new List<ReviewApp.Domain.Restaurant>();
+            var foundRestaurant = _repo.FindARestaurant(searchString);
+            if (foundRestaurant.Name == null)
+            {
+                var foundRestaurant1 = _repo.FindARestaurantByZipcode(searchString);
+                if (foundRestaurant1.Name != null) restaurants.Add(foundRestaurant1);
+                
+            }
+
+            //add all found restaurants to List<>
+            if (foundRestaurant.Name != null)
+                restaurants.Add(foundRestaurant);
             
-            if (foundRestaurant != null)
-                ViewBag.restaurant = restaurants.Count;
-                TempData["error"] = "Sorry! Nothing to show based on your input :(";
+            ViewBag.restaurant = restaurants.Count;
             
-            restaurants.Add(foundRestaurant);
+            TempData["error"] = "Sorry! Nothing to show based on your input :(";
+
             return View(restaurants);
         }
 
