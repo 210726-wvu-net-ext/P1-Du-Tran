@@ -21,6 +21,13 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'project1'
+    organization: '210726-wvu-net-ext'
+    scannerMode: 'MSBuild'
+    projectKey: '210726-wvu-net-ext_P1-Du-Tran'
+    projectName: 'P1-Du-Tran'
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
@@ -32,3 +39,8 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+- task: SonarCloudAnalyze@1
+
+
+
+
