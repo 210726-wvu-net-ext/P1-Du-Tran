@@ -41,6 +41,9 @@ stages:
         scannerMode: 'MSBuild'
         projectKey: '210726-wvu-net-ext_P1-Du-Tran'
         projectName: 'P1-Du-Tran'
+        extraProperties: |
+          sonar.exclusions=**/lib/**/*
+          sonar.cs.opencover.reportsPaths=$(Agent.TempDirectory)/*/coverage.opencover.xml
         
 
     - script: dotnet build --configuration Release
