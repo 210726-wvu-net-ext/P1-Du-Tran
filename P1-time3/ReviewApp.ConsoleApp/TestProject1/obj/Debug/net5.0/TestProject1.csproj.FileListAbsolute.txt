@@ -18,7 +18,6 @@ D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\TestProject1\bin\Debug\net5.0\TestP
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\TestProject1\bin\Debug\net5.0\TestProject1.runtimeconfig.json
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\TestProject1\bin\Debug\net5.0\TestProject1.runtimeconfig.dev.json
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\TestProject1\bin\Debug\net5.0\TestProject1.dll
-D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\TestProject1\bin\Debug\net5.0\ref\TestProject1.dll
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\TestProject1\bin\Debug\net5.0\TestProject1.pdb
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\TestProject1\bin\Debug\net5.0\Azure.Core.dll
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\TestProject1\bin\Debug\net5.0\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
@@ -258,3 +257,4 @@ D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\TestProject1\obj\Debug\net5.0\TestP
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\TestProject1\obj\Debug\net5.0\TestProject1.genruntimeconfig.cache
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\TestProject1\bin\Debug\net5.0\Castle.Core.dll
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\TestProject1\bin\Debug\net5.0\Moq.dll
+D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\TestProject1\obj\Debug\net5.0\refint\TestProject1.dll

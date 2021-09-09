@@ -21,4 +21,4 @@ D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.Domain\obj\Debug\net5.0\R
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.Domain\obj\Debug\net5.0\ReviewApp.Domain.dll
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.Domain\obj\Debug\net5.0\ReviewApp.Domain.pdb
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.Domain\obj\Debug\net5.0\ref\ReviewApp.Domain.dll
-D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.Domain\bin\Debug\net5.0\ref\ReviewApp.Domain.dll
+D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.Domain\obj\Debug\net5.0\refint\ReviewApp.Domain.dll

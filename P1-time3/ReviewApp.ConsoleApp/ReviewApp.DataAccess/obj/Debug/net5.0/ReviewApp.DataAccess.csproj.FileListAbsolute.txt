@@ -30,4 +30,4 @@ D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Debug\net5
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Debug\net5.0\ReviewApp.DataAccess.pdb
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Debug\net5.0\ReviewApp.DataAccess.genruntimeconfig.cache
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Debug\net5.0\ref\ReviewApp.DataAccess.dll
-D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\bin\Debug\net5.0\ref\ReviewApp.DataAccess.dll
+D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Debug\net5.0\refint\ReviewApp.DataAccess.dll

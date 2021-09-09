@@ -2,7 +2,6 @@ D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\bin\Release\ne
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\bin\Release\net5.0\ReviewApp.DataAccess.runtimeconfig.json
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\bin\Release\net5.0\ReviewApp.DataAccess.runtimeconfig.dev.json
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\bin\Release\net5.0\ReviewApp.DataAccess.dll
-D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\bin\Release\net5.0\ref\ReviewApp.DataAccess.dll
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\bin\Release\net5.0\ReviewApp.DataAccess.pdb
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\bin\Release\net5.0\ReviewApp.Domain.dll
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\bin\Release\net5.0\ReviewApp.Domain.pdb
@@ -11,8 +10,8 @@ D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Release\ne
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Release\net5.0\ReviewApp.DataAccess.AssemblyInfoInputs.cache
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Release\net5.0\ReviewApp.DataAccess.AssemblyInfo.cs
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Release\net5.0\ReviewApp.DataAccess.csproj.CoreCompileInputs.cache
-D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Release\net5.0\ReviewApp.DataAccess.csproj.CopyComplete
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Release\net5.0\ReviewApp.DataAccess.dll
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Release\net5.0\ref\ReviewApp.DataAccess.dll
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Release\net5.0\ReviewApp.DataAccess.pdb
 D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Release\net5.0\ReviewApp.DataAccess.genruntimeconfig.cache
+D:\Revature\P1\P1-time3\ReviewApp.ConsoleApp\ReviewApp.DataAccess\obj\Release\net5.0\refint\ReviewApp.DataAccess.dll

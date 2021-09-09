@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GGO0KjclVt9iByrYLe4S8E5aYRqXM+f4SQGMl3n0SrZe3dcpzMACX+MySs0iBWnwisIrWiX1dtNjPpsikbkuBw==",
+  "dgSpecHash": "ZMI9alv9E6VD6BT5oIrNiwmUbe7Ukc9PLCULTiR1yr5vuHx3LRR1Zs/UGq7UwAvEpBtllDI4szf1F2+N3TRAyA==",
   "success": true,
   "projectFilePath": "D:\\Revature\\P1\\P1-time3\\ReviewApp.ConsoleApp\\ReviewApp.WebApp\\ReviewApp.WebApp.csproj",
   "expectedPackageFiles": [
@@ -153,7 +153,8 @@
     "C:\\Users\\doanm\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\doanm\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\doanm\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\doanm\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\doanm\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\doanm\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.8\\microsoft.netcore.app.host.win-x64.5.0.8.nupkg.sha512"
   ],
   "logs": []
 }

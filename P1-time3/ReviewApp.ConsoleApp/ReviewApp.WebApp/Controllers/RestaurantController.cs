@@ -231,7 +231,7 @@ namespace ReviewApp.WebApp.Controllers
                 }
             }
             _repo.DeleteRestaurant(id);
-            return View();
+            return RedirectToAction("ConfirmPage");
         }
 
         //Delete Review
