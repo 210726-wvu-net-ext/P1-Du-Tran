@@ -53,7 +53,7 @@ stages:
     - script: dotnet test 
         --configuration Release 
         --collect:"XPlat Code Coverage" 
-        --resutls-directory $(Agent.TempDirectory)
+        --results-directory $(Agent.TempDirectory)
         --
         DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=opencover
       displayName: dotnet test   
